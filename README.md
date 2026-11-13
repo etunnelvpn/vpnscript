@@ -4,11 +4,11 @@
 </code></pre>
 
 ### INSTALL SCRIPT
-<pre><code>apt update -y && apt install -y wget curl jq screen && wget -q https://raw.githubusercontent.com/etunnelvpn/script/main/setup.sh && chmod +x setup.sh && ./setup.sh
+<pre><code>apt update -y && apt install -y wget curl jq screen && wget -q https://raw.githubusercontent.com/etunnelvpn/vpnscript/main/setup.sh && chmod +x setup.sh && ./setup.sh
 </code></pre>
 
 ### UPDATE COMMAND
-<pre><code>wget -q https://raw.githubusercontent.com/etunnelvpn/script/main/update.sh && chmod +x update.sh && ./update.sh</code></pre>
+<pre><code>wget -q https://raw.githubusercontent.com/etunnelvpn/vpnscript/main/update.sh && chmod +x update.sh && ./update.sh</code></pre>
 
 ### TESTED ON OS
 - UBUNTU 20.04
