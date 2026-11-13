@@ -1,4 +1,4 @@
-#!/bin/bash
+﻿#!/bin/bash
 dateFromServer=$(curl -v --insecure --silent https://google.com/ 2>&1 | grep Date | sed -e 's/< Date: //')
 biji=`date +"%Y-%m-%d" -d "$dateFromServer"`
 red() { echo -e "\\033[32;1m${*}\\033[0m"; }
@@ -33,8 +33,8 @@ fun_bar() {
 }
 res1() {
    cd
-    wget https://raw.githubusercontent.com/etunnelvpn/vip/main/Cdy/menu.zip
-    wget -q -O /usr/bin/enc "https://raw.githubusercontent.com/etunnelvpn/vip/main/Enc/encrypt" ; chmod +x /usr/bin/enc
+    wget https://raw.githubusercontent.com/etunnelvpn/script/main/Cdy/menu.zip
+    wget -q -O /usr/bin/enc "https://raw.githubusercontent.com/etunnelvpn/script/main/Enc/encrypt" ; chmod +x /usr/bin/enc
     7z x -paetunnelvpn menu.zip
     chmod +x menu/*
     enc menu/*
@@ -46,7 +46,7 @@ res1() {
     rm -rf /usr/local/sbin/gz*
     rm -rf /usr/local/sbin/*.bak
     rm -rf /usr/local/sbin/m-noobz
-    wget /usr/local/sbin "https://raw.githubusercontent.com/etunnelvpn/vip/main/Cfg/m-noobz" 
+    wget /usr/local/sbin "https://raw.githubusercontent.com/etunnelvpn/script/main/Cfg/m-noobz" 
     cp m-noobz /usr/local/sbin
     rm m-noobz*
     chmod +x /usr/local/sbin/m-noobz

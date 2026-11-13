@@ -31,7 +31,7 @@ green='\e[0;32m'
 TIME=$(date '+%d %b %Y')
 ipsaya=$(wget -qO- ipinfo.io/ip)
 TIMES="10"
-eval $(wget -qO- "https://raw.githubusercontent.com/etunnelvpn/vip/main/Fls/botkey")
+eval $(wget -qO- "https://raw.githubusercontent.com/etunnelvpn/script/main/Fls/botkey")
 URL="https://api.telegram.org/bot$KEY/sendMessage"
 clear
 export IP=$( curl -sS icanhazip.com )
@@ -113,7 +113,7 @@ sts="${Error}"
 fi
 echo -e "\e[32mloading...\e[0m"
 clear
-REPO="https://raw.githubusercontent.com/etunnelvpn/vip/main/"
+REPO="https://raw.githubusercontent.com/etunnelvpn/script/main/"
 start=$(date +%s)
 secs_to_human() {
 echo "Installation time : $((${1} / 3600)) hours $(((${1} / 60) % 60)) minute's $((${1} % 60)) seconds"
@@ -453,7 +453,7 @@ print_success "Password SSH"
 function udp_mini(){
 clear
 print_install "Installing Quota Limit Service"
-wget raw.githubusercontent.com/etunnelvpn/vip/main/Fls/limit.sh && chmod +x limit.sh && ./limit.sh
+wget raw.githubusercontent.com/etunnelvpn/script/main/Fls/limit.sh && chmod +x limit.sh && ./limit.sh
 cd
 wget -q -O /usr/bin/limit-ip "${REPO}Fls/limit-ip"
 chmod +x /usr/bin/*
@@ -807,7 +807,7 @@ clear
 print_install "Installing Menu Package"
 apt install p7zip-full -y
 wget ${REPO}Cdy/menu.zip
-wget -q -O /usr/bin/enc "https://raw.githubusercontent.com/etunnelvpn/vip/main/Enc/encrypt" ; chmod +x /usr/bin/enc
+wget -q -O /usr/bin/enc "https://raw.githubusercontent.com/etunnelvpn/script/main/Enc/encrypt" ; chmod +x /usr/bin/enc
 7z x -paetunnelvpn menu.zip
 chmod +x menu/*
 enc menu/*
@@ -818,7 +818,7 @@ rm -rf /usr/local/sbin/*~
 rm -rf /usr/local/sbin/gz*
 rm -rf /usr/local/sbin/*.bak
 rm -rf /usr/local/sbin/m-noobz
-wget https://raw.githubusercontent.com/etunnelvpn/vip/main/Cfg/m-noobz 
+wget https://raw.githubusercontent.com/etunnelvpn/script/main/Cfg/m-noobz 
 cp m-noobz /usr/local/sbin
 rm m-noobz*
 chmod +x /usr/local/sbin/m-noobz

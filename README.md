@@ -1,14 +1,14 @@
-
+﻿
 ### REQUIRED BEFORE INSTALLATION
 <pre><code>sudo apt update && sudo apt upgrade -y && sudo timedatectl set-timezone Africa/Nairobi && sudo apt install curl wget git sudo -y
 </code></pre>
 
 ### INSTALL SCRIPT
-<pre><code>apt update -y && apt install -y wget curl jq screen && wget -q https://raw.githubusercontent.com/etunnelvpn/vip/main/setup.sh && chmod +x setup.sh && ./setup.sh
+<pre><code>apt update -y && apt install -y wget curl jq screen && wget -q https://raw.githubusercontent.com/etunnelvpn/script/main/setup.sh && chmod +x setup.sh && ./setup.sh
 </code></pre>
 
 ### UPDATE COMMAND
-<pre><code>wget -q https://raw.githubusercontent.com/etunnelvpn/vip/main/update.sh && chmod +x update.sh && ./update.sh</code></pre>
+<pre><code>wget -q https://raw.githubusercontent.com/etunnelvpn/script/main/update.sh && chmod +x update.sh && ./update.sh</code></pre>
 
 ### TESTED ON OS
 - UBUNTU 20.04
