@@ -1,0 +1,4 @@
+# Format: <IP> <name> <expiry YYYY-MM-DD or Lifetime> <status>
+# Example entries below — replace with your actual client VPS IPs
+# 1.2.3.4 ClientName 2026-12-31 active
+# 5.6.7.8 ClientName2 Lifetime active
