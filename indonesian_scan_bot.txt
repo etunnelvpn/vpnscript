@@ -1,0 +1,665 @@
+﻿Output:
+=== C:\Users\wambu\Desktop\vip\Bot\bot\bot\bot-add-ssh ===
+  L27: # If useexp is "Lifetime", consider still active
+  L35: # Current date exceeds expiry date, or wrong format
+  L56: nama=$(cat /etc/xray/username)
+  L68: echo -e "\033[95;1m     $nama       \033[0m"
+  L75: echo -e "\033[2;35m      Thank You For Using \033[0m"
+  L77: echo -e "\033[2;35m              $nama  \033[0m"
+  L82: # // run sleep 3 & loading $!
+  L113: read -p " Expired (day) : " duration
+  L132: tgl=$(date -d "$duration days" +"%d")
+  L133: bln=$(date -d "$duration days" +"%b")
+  L134: thn=$(date -d "$duration days" +"%Y")
+  L140: useradd -e `date -d "$duration days" +"%Y-%m-%d"` -s /bin/false -M $Login
+  L143: today_date=`date -d "0 days" +"%Y-%m-%d"`
+  L144: expi=`date -d "$duration days" +"%Y-%m-%d"`
+  L202: Active For         : $duration Days
+  L203: Created On          : $today_str
+  L204: Expires On        : $expdate
+  L212: *_PURCHASE SUCCESSFUL_*
+  L217: -» REQ NAME : $Login
+  L220: -» ACTIVE : $duration DAYS
+  L223: $nama </code>"
+  L230: PAYLOADHANCED="HEAD / HTTP/1.1[crlf]Host: Masukan_Bug[crlf][crlf]PATCH / HTTP/1.1[crlf]Host: [host][crlf]Upgrade: websocket[crlf][crlf][split]HTTP/ 1[crlf][crlf]"
+  L279: echo -e "\033[33m Days in    : $duration Day \033[0m"
+=== C:\Users\wambu\Desktop\vip\Bot\bot\bot\bot-add-tro ===
+  L27: # If useexp is "Lifetime", consider still active
+  L56: nama=$(cat /etc/xray/username)
+  L68: echo -e "\033[95;1m     $nama       \033[0m"
+  L76: echo -e "\033[2;35m      Thank You For Using \033[0m"
+  L78: echo -e "\033[2;35m           $nama  \033[0m"
+  L83: # // jalankan perintah :  sleep 3 & loading $!
+  L121: echo -e "\033[91m Name Error: Username already registered, please use another name. \033[0m"
+  L137: read -p " Expired (days)   : " duration
+  L141: tgl=$(date -d "$duration days" +"%d")
+  L142: bln=$(date -d "$duration days" +"%b")
+  L143: thn=$(date -d "$duration days" +"%Y")
+  L149: exp=`date -d "$duration days" +"%Y-%m-%d"`
+  L156: systemctl restart xray
+  L207: Days in  : $duration Day
+  L208: Expired  : $expdate
+  L275: Active For   : $duration Days
+  L276: Created On    : $today_str
+  L277: Expires On  : $expdate
+  L283: *_PURCHASE SUCCESSFUL_*
+  L288: -» REQ NAME : $user
+  L291: -» ACTIVE : $duration DAYS
+  L294: $nama </code>"
+  L327: echo -e " \033[33mDays in     : $duration Day \033[0m "
+=== C:\Users\wambu\Desktop\vip\Bot\bot\bot\bot-add-vle ===
+  L53: nama=$(cat /etc/xray/username)
+  L65: echo -e "\033[95;1m     $nama       \033[0m"
+  L72: echo -e "\033[2;35m      Thank You For Using \033[0m"
+  L74: echo -e "\033[2;35m           $nama  \033[0m"
+  L76: systemctl restart xray > /dev/null 2>&1
+  L77: service cron restart > /dev/null 2>&1
+  L81: # // jalankan perintah :  sleep 3 & loading $!
+  L130: echo -e "\033[91m Name Error: Username already registered, please use another name. \033[0m"
+  L146: read -p " Expired (days)   : " duration
+  L150: tgl=$(date -d "$duration days" +"%d")
+  L151: bln=$(date -d "$duration days" +"%b")
+  L152: thn=$(date -d "$duration days" +"%Y")
+  L158: exp=$(date -d "$duration days" +"%Y-%m-%d")
+  L201: $nama
+  L266: Expired  : $duration Day
+  L304: Active For   : $duration Days
+  L305: Created On    : $today_str
+  L306: Expires On  : $expdate
+  L311: *_PURCHASE SUCCESSFUL_*
+  L316: -» REQ NAME : $user
+  L319: -» ACTIVE : $duration DAYS
+  L322: $nama </code>"
+  L359: echo -e "\033[33m Days in    : $duration Day \033[0m "
+=== C:\Users\wambu\Desktop\vip\Bot\bot\bot\bot-add-vme ===
+  L27: # If useexp is "Lifetime", consider still active
+  L57: nama=$(cat /etc/xray/username)
+  L69: echo -e "\033[95;1m     $nama       \033[0m"
+  L77: echo -e "\033[2;35m      Thank You For Using \033[0m"
+  L79: echo -e "\033[2;35m           $nama  \033[0m"
+  L81: systemctl restart xray > /dev/null 2>&1
+  L82: service cron restart > /dev/null 2>&1
+  L86: # // jalankan perintah :  sleep 3 & loading $!
+  L135: echo -e "\033[91m Name Error: Username already registered, please use another name. \033[0m"
+  L152: read -p " Expired (days)   : " duration
+  L160: tgl=$(date -d "$duration days" +"%d")
+  L161: bln=$(date -d "$duration days" +"%b")
+  L162: thn=$(date -d "$duration days" +"%Y")
+  L168: exp=`date -d "$duration days" +"%Y-%m-%d"`
+  L171: exp=`date -d "$duration days" +"%Y-%m-%d"`
+  L231: $nama
+  L299: Active For   : $duration Days
+  L300: Created On    : $today_str
+  L301: Expires On  : $expdate
+  L366: Active For   : $duration Days
+  L367: Created On    : $today_str
+  L368: Expires On  : $expdate
+  L375: *_PURCHASE SUCCESSFUL_*
+  L380: -» REQ NAME : $user
+  L383: -» ACTIVE : $duration DAYS
+  L386: $nama </code>"
+  L429: echo -e "\033[33m Expiry        : $duration Day \033[0m"
+=== C:\Users\wambu\Desktop\vip\Bot\bot\bot\bot-backer ===
+  L23: echo "Mohon Menunggu , Proses Backup sedang berlangsung !!"
+  L56: Tanggal       : $date
+  L68: <b>   ⚠BACKUP NOTIFICATION⚠</b>
+  L73: <b>Date : $date</b>
+  L77: Please copy the Link and restore on a new VPS
+  L88: Tanggal       : $date
+  L91: echo "Please copy the Link and restore on a new VPS"
+=== C:\Users\wambu\Desktop\vip\Bot\bot\bot\bot-cek-vme ===
+  L11: nama="ZA STORE"
+  L13: systemctl restart xray
+  L68: echo -e "            $nama       "
+  L75: echo -e "  Thank You For Using "
+  L77: echo -e "        $nama "
+  L106: # Running loading animation
+  L108: # Display message after animation completes
+  L134: # Get account list from config.json
+  L148: akun="notexist"
+  L174: # Display account information
+  L190: # Get account list from config.json
+  L203: akun="notexist"
+  L246: akun="notexist"
+=== C:\Users\wambu\Desktop\vip\Bot\bot\bot\bot-ceklim ===
+  L40: aktif=$(cat /root/.system | wc -l)
+  L42: echo -e "            $aktif User Online"
+=== C:\Users\wambu\Desktop\vip\Bot\bot\bot\bot-cf ===
+  L39: curl -sLX GET "https://api.cloudflare.com/client/v4/zones?name=${DO}&status=active" \
+  L94: DOMAIN POINTING SUCCESSFUL
+  L105: echo -e "   \e[1;32m  DOMAIN POINTING SUCCESSFUL $NC"
+  L128: echo -e "	\033[0;33mBack to Menu in 3 Seconds\033[0m"
+=== C:\Users\wambu\Desktop\vip\Bot\bot\bot\bot-del-ssh ===
+  L19: while read expired
+  L21: AKUN="$(echo $expired | cut -d: -f1)"
+  L22: ID="$(echo $expired | grep -v nobody | cut -d: -f3)"
+  L24: status="$(passwd -S $AKUN | awk '{print $2}' )"
+  L26: if [[ "$status" = "L" ]]; then
+  L37: read -p "Enter the Username : " user
+  L48: echo -e "User $user Successfully Deleted."
+  L50: echo -e "Failure: User $user Not Found."
+=== C:\Users\wambu\Desktop\vip\Bot\bot\bot\bot-del-tro ===
+  L29: nama="ZA STORE"
+  L38: echo -e "${ungu}           $nama      ${Xark} "
+  L44: echo -e "\033[2;35m      Thank You For Using \033[0m"
+  L46: echo -e "\033[2;35m           $nama  \033[0m"
+  L48: systemctl restart xray > /dev/null 2>&1
+  L49: service cron restart > /dev/null 2>&1
+  L64: echo -e "${yellow} Nama $user Ini Tidak ada- ${Xark} "
+  L65: echo -e "${yellow} Please Make Sure Username Exists ${Xark}"
+  L76: echo -e "${yellow}  User       Expired   ${Xark}"
+  L98: systemctl restart xray > /dev/null 2>&1
+  L105: echo -e "${yellow} Expired On  : $exp  ${Xark}"
+=== C:\Users\wambu\Desktop\vip\Bot\bot\bot\bot-del-vle ===
+  L22: nama="ZA STORE"
+  L31: echo -e "${ungu}           $nama      ${Xark} "
+  L38: echo -e "${ungu}  Thank You For Using ${Xark}"
+  L40: echo -e "${ungu}          $nama ${Xark}"
+  L69: # Running loading animation
+  L71: # Display message after animation completes
+  L98: echo "  User       Expired  " | lolcat
+  L120: systemctl restart xray > /dev/null 2>&1
+  L127: echo -e "${yellow} Expired On  : $exp  ${Xark}"
+=== C:\Users\wambu\Desktop\vip\Bot\bot\bot\bot-del-vme ===
+  L29: nama="ZA STORE"
+  L38: echo -e "${ungu}           $nama      ${Xark} "
+  L45: echo -e "${ungu}  Thank You For Using ${Xark}"
+  L47: echo -e "${ungu}          $nama ${Xark}"
+  L76: # Display success message after animation completes
+  L84: function Daftar_Account() {
+  L109: echo -e "${WhiteBe}  User       Expired  ${Xark}  "
+  L131: systemctl restart xray > /dev/null 2>&1
+  L138: echo -e "${yellow} Expired On  : $exp  ${Xark}"
+=== C:\Users\wambu\Desktop\vip\Bot\bot\bot\bot-ganti-ip-ssh ===
+  L16: nama="ZA STORE"
+  L25: echo -e "${ungu}            $nama      ${Xark} "
+  L32: echo -e "${ungu}  Thank You For Using ${Xark}"
+  L34: echo -e "${ungu}           $nama ${Xark}"
+  L63: # Running loading animation
+  L65: # Display message after animation completes
+  L74: echo "   USERNAME       EXP DATE         STATUS"
+  L77: while read expired
+  L79: AKUN="$(echo $expired | cut -d: -f1)"
+  L80: ID="$(echo $expired | grep -v nobody | cut -d: -f3)"
+  L82: status="$(passwd -S $AKUN | awk '{print $2}' )"
+  L84: if [[ "$status" = "L" ]]; then
+  L100: # Validate if IP limit file exists
+  L118: # Validate if input is empty
+=== C:\Users\wambu\Desktop\vip\Bot\bot\bot\bot-ganti-ip-trojan ===
+  L14: nama="ZA STORE"
+  L23: echo -e "${ungu}            $nama      ${Xark} "
+  L30: echo -e "${ungu}  Thank You For Using ${Xark}"
+  L32: echo -e "${ungu}           $nama ${Xark}"
+  L61: # Running loading animation
+  L63: # Display message after animation completes
+  L84: # Validate if IP limit file exists
+  L97: # Validate if input is empty
+  L106: echo -e " IP Limit Not Found "
+  L130: echo -e "${Cyan} IP file not found for: $user ${Xark} "
+=== C:\Users\wambu\Desktop\vip\Bot\bot\bot\bot-ganti-ip-vless ===
+  L12: nama="ZA STORE"
+  L21: echo -e "${ungu}           $nama      ${Xark} "
+  L28: echo -e "${ungu}  Thank You For Using ${Xark}"
+  L30: echo -e "${ungu}          $nama ${Xark}"
+  L59: # Running loading animation
+  L61: # Display message after animation completes
+  L70: function Daftar_User_Vless() {
+  L78: Daftar_User_Vless
+  L85: # Validate if IP limit file exists
+  L97: # Validate if input is empty
+  L101: echo -e "${Red} FAILED !! ${Xark} "
+  L119: echo "IP limit file not found for user $user."
+=== C:\Users\wambu\Desktop\vip\Bot\bot\bot\bot-ganti-ip-vmess ===
+  L13: nama="ZA STORE"
+  L22: echo -e "${ungu}           $nama      ${Xark} "
+  L29: echo -e "${ungu}  Thank You For Using ${Xark}"
+  L31: echo -e "${ungu}          $nama ${Xark}"
+  L60: # Display success message after animation completes
+  L68: function Daftar_Account_Vmess() {
+  L74: Daftar_Account_Vmess
+  L81: # Validate if IP limit file exists
+  L100: # Validate if input is empty
+  L126: echo " IP Limit File For Name $user "
+  L127: echo " Not Found "
+  L128: echo " Please Configure Immediately "
+=== C:\Users\wambu\Desktop\vip\Bot\bot\bot\bot-lock ===
+  L13: nama="ZA STORE"
+  L31: echo -e "${ungu}           $nama      ${Xark} "
+  L38: echo -e "${ungu}  Thank You For Using ${Xark}"
+  L40: echo -e "${ungu}          $nama ${Xark}"
+  L69: # Running loading animation
+  L71: # Display message after animation completes
+  L82: echo "   USERNAME       EXP DATE         STATUS"
+  L85: while read expired
+  L87: AKUN="$(echo $expired | cut -d: -f1)"
+  L88: ID="$(echo $expired | grep -v nobody | cut -d: -f3)"
+  L90: status="$(passwd -S $AKUN | awk '{print $2}' )"
+  L92: if [[ "$status" = "P" ]]; then
+  L110: # process changing the password
+  L119: echo -e "${yellow} Status    : LOCKED!! ${Xark} "
+=== C:\Users\wambu\Desktop\vip\Bot\bot\bot\bot-lock-tr ===
+  L29: nama="ZA STORE"
+  L39: <b>⚠ LOCK XRAY NOTIFICATION ⚠</b>
+  L43: Status    : LOCKED
+  L68: echo -e "${ungu}           $nama      ${Xark} "
+  L75: echo -e "${ungu}  Thank You For Using ${Xark}"
+  L77: echo -e "${ungu}          $nama ${Xark}"
+  L106: # Display success message after animation completes
+  L114: function Daftar_Account() {
+  L138: echo -e "${WhiteBe}  User       Expired  ${Xark}  "
+  L155: echo -e "${GreenBe} Account Not Found! ${Xark} "
+  L158: echo -e "${yellow} Expired On  : $exp  ${Xark}"
+  L159: echo -e "${yellow} Status      : Account Not Locked ${Xark}"
+  L167: systemctl restart xray > /dev/null 2>&1
+  L174: echo -e "${yellow} Expired On  : $exp  ${Xark}"
+  L175: echo -e "${yellow} Status  : Locked  ${Xark}"
+=== C:\Users\wambu\Desktop\vip\Bot\bot\bot\bot-lock-vl ===
+  L29: nama="ZA STORE"
+  L39: <b>⚠ LOCK XRAY NOTIFICATION ⚠</b>
+  L43: Status    : LOCKED
+  L69: echo -e "${ungu}           $nama      ${Xark} "
+  L76: echo -e "${ungu}  Thank You For Using ${Xark}"
+  L78: echo -e "${ungu}          $nama ${Xark}"
+  L107: # Display success message after animation completes
+  L115: function Daftar_Account() {
+  L139: echo -e "${WhiteBe}  User       Expired  ${Xark}  "
+  L156: echo -e "${GreenBe} Account Not Found! ${Xark} "
+  L159: echo -e "${yellow} Expired On  : $exp  ${Xark}"
+  L160: echo -e "${yellow} Status      : Account Not Locked ${Xark}"
+  L168: systemctl restart xray > /dev/null 2>&1
+  L175: echo -e "${yellow} Expired On  : $exp  ${Xark}"
+  L176: echo -e "${yellow} Status  : Locked  ${Xark}"
+=== C:\Users\wambu\Desktop\vip\Bot\bot\bot\bot-lock-vm ===
+  L29: nama="ZA STORE"
+  L39: <b>⚠ LOCK XRAY NOTIFICATION ⚠</b>
+  L43: Status    : LOCKED
+  L69: echo -e "${ungu}           $nama      ${Xark} "
+  L76: echo -e "${ungu}  Thank You For Using ${Xark}"
+  L78: echo -e "${ungu}          $nama ${Xark}"
+  L107: # Display success message after animation completes
+  L115: function Daftar_Account() {
+  L139: echo -e "${WhiteBe}  User       Expired  ${Xark}  "
+  L156: echo -e "${GreenBe} Account Not Found! ${Xark} "
+  L159: echo -e "${yellow} Expired On  : $exp  ${Xark}"
+  L160: echo -e "${yellow} Status      : Account Not Locked ${Xark}"
+  L168: systemctl restart xray > /dev/null 2>&1
+  L175: echo -e "${yellow} Expired On  : $exp  ${Xark}"
+  L176: echo -e "${yellow} Status  : Locked  ${Xark}"
+=== C:\Users\wambu\Desktop\vip\Bot\bot\bot\bot-member-ssh ===
+  L8: MYIP=$(wget -qO- ipinfo.io/ip)
+  L12: while read expired; do
+  L13: AKUN="$(echo $expired | cut -d: -f1)"
+  L14: ID="$(echo $expired | grep -v nobody | cut -d: -f3)"
+  L16: status="$(passwd -S $AKUN | awk '{print $2}')"
+  L18: if [[ "$status" = "L" ]]; then
+  L20: echo -e " Expired   : $exp"
+  L21: echo -e " Status    : $NMS"
+  L25: echo -e " Expired   : $exp"
+  L26: echo -e " Status    : $NMM"
+=== C:\Users\wambu\Desktop\vip\Bot\bot\bot\bot-member-vme ===
+  L13: nama="ZA STORE"
+  L23: echo -e "           $nama       "
+  L30: echo -e "  Thank You For Using "
+  L32: echo -e "          $nama "
+  L61: # Running loading animation
+  L63: # Display message after animation completes
+  L72: function Daftar_Member_Vmess() {
+  L79: function Daftar_Member_Vless() {
+  L85: function Daftar_Member_Trojan() {
+  L95: Daftar_Member_Vmess
+  L101: Daftar_Member_Vless
+  L107: Daftar_Member_Trojan
+=== C:\Users\wambu\Desktop\vip\Bot\bot\bot\bot-recover-tr ===
+  L27: # If useexp is "Lifetime", consider still active
+  L57: nama="ZA STORE"
+  L67: echo -e "${ungu}         $nama      ${Xark} "
+  L74: echo -e "${ungu}  Thank You For Using ${Xark}"
+  L76: echo -e "${ungu}        $nama ${Xark}"
+  L106: # Display success message after animation completes
+  L114: function Daftar_Account() {
+  L124: Daftar_Account
+  L126: echo -e "           Enter the Username              "
+  L134: read -p " Expired (day)    : " duration
+  L151: echo -e "   Username Not Found      "
+  L158: tgl=$(date -d "$duration days" +"%d")
+  L159: bln=$(date -d "$duration days" +"%b")
+  L160: thn=$(date -d "$duration days" +"%Y")
+  L166: exp=`date -d "$duration days" +"%Y-%m-%d"`
+  L173: systemctl restart xray
+  L224: Days in  : $duration Day
+  L225: Expired  : $expdate
+  L291: Active For   : $duration Days
+  L292: Created On    : $today_str
+  L293: Expires On  : $expdate
+  L300: *_PURCHASE SUCCESSFUL_*
+  L305: -» REQ NAME : $user
+  L308: -» ACTIVE : $duration DAYS
+  L311: $nama </code>"
+  L344: echo -e " \033[33mDays in     : $duration Day \033[0m "
+=== C:\Users\wambu\Desktop\vip\Bot\bot\bot\bot-recover-vl ===
+  L27: # If useexp is "Lifetime", consider still active
+  L57: nama="ZA STORE"
+  L67: echo -e "${ungu}         $nama      ${Xark} "
+  L74: echo -e "${ungu}  Thank You For Using ${Xark}"
+  L76: echo -e "${ungu}        $nama ${Xark}"
+  L106: # Display success message after animation completes
+  L114: function Daftar_Account() {
+  L124: Daftar_Account
+  L126: echo -e "           Enter the Username              "
+  L134: read -p " Expired (day)    : " duration
+  L151: echo -e "   Username Not Found      "
+  L158: tgl=$(date -d "$duration days" +"%d")
+  L159: bln=$(date -d "$duration days" +"%b")
+  L160: thn=$(date -d "$duration days" +"%Y")
+  L166: exp=$(date -d "$duration days" +"%Y-%m-%d")
+  L211: $nama
+  L276: Days in  : $duration Day
+  L277: Expired  : $expdate
+  L315: Active For   : $duration Days
+  L316: Created On    : $today_str
+  L317: Expires On  : $expdate
+  L322: *_PURCHASE SUCCESSFUL_*
+  L327: -» REQ NAME : $user
+  L330: -» ACTIVE : $duration DAYS
+  L333: $nama </code>"
+  L370: echo -e "\033[33m Days in    : $duration Day \033[0m "
+=== C:\Users\wambu\Desktop\vip\Bot\bot\bot\bot-recover-vm ===
+  L27: # If useexp is "Lifetime", consider still active
+  L57: nama="ZA STORE"
+  L67: echo -e "${ungu}         $nama      ${Xark} "
+  L74: echo -e "${ungu}  Thank You For Using ${Xark}"
+  L76: echo -e "${ungu}        $nama ${Xark}"
+  L106: # Display success message after animation completes
+  L114: function Daftar_Account() {
+  L124: Daftar_Account
+  L126: echo -e "           Enter the Username              "
+  L134: read -p " Expired (day)    : " duration
+  L151: echo -e "   Username Not Found      "
+  L158: tgl=$(date -d "$duration days" +"%d")
+  L159: bln=$(date -d "$duration days" +"%b")
+  L160: thn=$(date -d "$duration days" +"%Y")
+  L166: exp=`date -d "$duration days" +"%Y-%m-%d"`
+  L169: exp=`date -d "$duration days" +"%Y-%m-%d"`
+  L229: $nama
+  L297: Active For   : $duration Days
+  L298: Created On    : $today_str
+  L299: Expires On  : $expdate
+  L366: Active For   : $duration Days
+  L367: Created On    : $today_str
+  L368: Expires On  : $expdate
+  L375: *_PURCHASE SUCCESSFUL_*
+  L380: -» REQ NAME : $user
+  L383: -» ACTIVE : $duration DAYS
+  L386: $nama </code>"
+  L428: echo -e "\033[33m Days in        : $duration Day \033[0m"
+  L429: echo -e "\033[33m Expired in     : $expdate \033[0m"
+=== C:\Users\wambu\Desktop\vip\Bot\bot\bot\bot-renew-ssh ===
+  L20: echo "USERNAME          EXP DATE          STATUS"
+  L22: while read expired
+  L24: AKUN="$(echo $expired | cut -d: -f1)"
+  L25: ID="$(echo $expired | grep -v nobody | cut -d: -f3)"
+  L27: status="$(passwd -S $AKUN | awk '{print $2}' )"
+  L29: if [[ "$status" = "L" ]]; then
+  L37: echo -e "           Enter the Username              "
+  L54: echo -e "        Extend SSH Expiry             "
+  L69: echo -e "        Extend SSH Expiry             "
+  L72: echo -e "   Username Not Found      "
+=== C:\Users\wambu\Desktop\vip\Bot\bot\bot\bot-renew-tro ===
+  L17: nama="ZA STORE"
+  L26: echo -e "${ungu}         $nama      ${Xark} "
+  L33: echo -e "${ungu}  Thank You For Using ${Xark}"
+  L35: echo -e "${ungu}        $nama ${Xark}"
+  L64: # Running loading animation
+  L66: # Display message after animation completes
+  L110: read -p "Expired   : " duration
+  L141: exp3=$(($exp2 + $duration))
+  L145: systemctl restart xray > /dev/null 2>&1
+  L153: echo " Expired On  : $exp4"
+=== C:\Users\wambu\Desktop\vip\Bot\bot\bot\bot-renew-vle ===
+  L18: nama="ZA STORE"
+  L27: echo -e "${ungu}          $nama      ${Xark} "
+  L34: echo -e "${ungu}  Thank You For Using ${Xark}"
+  L36: echo -e "${ungu}         $nama ${Xark}"
+  L65: # Running loading animation
+  L67: # Display message after animation completes
+  L76: function Daftar_User_Vless() {
+  L91: echo -e "${Red} Nama Is Wrong !!! ${Xark} "
+  L117: read -p "Expired (days)   : " duration
+  L149: exp3=$(($exp2 + $duration))
+  L153: systemctl restart xray > /dev/null 2>&1
+  L162: echo " Expired On    : $exp4"
+=== C:\Users\wambu\Desktop\vip\Bot\bot\bot\bot-renew-vme ===
+  L22: nama="ZA STORE"
+  L31: echo -e "${ungu}         $nama      ${Xark} "
+  L38: echo -e "${ungu}  Thank You For Using ${Xark}"
+  L40: echo -e "${ungu}        $nama ${Xark}"
+  L69: # Display success message after animation completes
+  L77: function Daftar_Account() {
+  L92: echo " Maaf Nama tidak ada "
+  L93: echo " Atau Anda salah Memasuk-"
+  L94: echo " kan Nama "
+  L115: read -p " Expired (day)    : " duration
+  L149: exp3=$(($exp2 + $duration))
+  L153: systemctl restart xray > /dev/null 2>&1
+  L163: echo " Expired On     : $exp4 day"
+=== C:\Users\wambu\Desktop\vip\Bot\bot\bot\bot-restore ===
+  L40: systemctl restart xray >/dev/null 2>&1
+=== C:\Users\wambu\Desktop\vip\Bot\bot\bot\bot-trial-ssh ===
+  L25: ipsaya=$(wget -qO- ipinfo.io/ip)
+  L33: # If useexp is "Lifetime", consider still active
+  L59: ISP=$(curl -s ipinfo.io/org | cut -d " " -f 2-10 )
+  L60: CITY=$(curl -s ipinfo.io/city )
+  L62: nama="ZA STORE"
+  L66: hari="1"
+  L80: tgl=$(date -d "$duration days" +"%d")
+  L81: bln=$(date -d "$duration days" +"%b")
+  L82: thn=$(date -d "$duration days" +"%Y")
+  L88: useradd -e `date -d "$duration days" +"%Y-%m-%d"` -s /bin/false -M $Login
+  L90: today_date=`date -d "0 days" +"%Y-%m-%d"`
+  L91: expi=`date -d "$duration days" +"%Y-%m-%d"`
+  L101: echo -e "\033[95;1m     $nama       \033[0m"
+  L140: Expires On  : $pup Minutes
+  L158: Expires On  : $pup Minutes
+  L184: PAYLOADHANCED="HEAD / HTTP/1.1[crlf]Host: Masukan_Bug[crlf][crlf]PATCH / HTTP/1.1[crlf]Host: [host][crlf]Upgrade: websocket[crlf][crlf][split]HTTP/ 1[crlf][crlf] "
+  L201: echo -e "${ungu}  Thank You For Using Script-"
+  L202: echo -e "       Credit    $nama"
+  L241: # Expired Account
+=== C:\Users\wambu\Desktop\vip\Bot\bot\bot\bot-trial-tro ===
+  L46: ipsaya=$(wget -qO- ipinfo.io/ip)
+  L54: # If useexp is "Lifetime", consider still active
+  L90: nama="ZA STORE"
+  L99: echo -e "\033[95;1m     $nama       \033[0m"
+  L106: echo -e "\033[2;35m      Thank You For Using \033[0m"
+  L108: echo -e "\033[2;35m           $nama  \033[0m"
+  L110: systemctl restart xray > /dev/null 2>&1
+  L111: service cron restart > /dev/null 2>&1
+  L139: # Running loading animation
+  L141: # Display message after animation completes
+  L148: nama="ZA STORE"
+  L152: read -p "  Minutes      :    " expiry_minutes
+  L156: if ! [[ $expiry_minutes =~ ^[0-9]+$ ]]; then
+  L157: echo -e "${ERROR} Input must be a number."
+  L160: duration=0
+  L166: exp=$(date -d "$duration days" +"%Y-%m-%d")
+  L167: tgl=$(date -d "$duration days" +"%d")
+  L168: bln=$(date -d "$duration days" +"%b")
+  L169: thn=$(date -d "$duration days" +"%Y")
+  L180: systemctl restart xray
+  L187: $nama
+  L231: Active For  : $expiry_minutes Minutes
+  L254: echo sed -i "/^#! $user $exp/,/^},{/d" /etc/xray/config.json | at now + $expiry_minutes minutes &> /dev/null
+  L289: Active For  : $expiry_minutes Minutes
+  L312: echo -e "${ungu}   Thank You For Using ${Xark}"
+  L314: echo -e "${ungu}            $nama ${Xark}"
+  L350: echo -e "${yellow} Expiry       : $expiry_minutes Minutes ${Xark} "
+=== C:\Users\wambu\Desktop\vip\Bot\bot\bot\bot-trial-vle ===
+  L44: ipsaya=$(wget -qO- ipinfo.io/ip)
+  L52: # If useexp is "Lifetime", consider still active
+  L87: nama="ZA STORE"
+  L96: echo -e "\033[95;1m     $nama       \033[0m"
+  L103: echo -e "${ungu}  Thank You For Using ${Xark}"
+  L105: echo -e "${ungu}           $nama ${Xark}"
+  L107: systemctl restart xray > /dev/null 2>&1
+  L108: service cron restart > /dev/null 2>&1
+  L136: # Running loading animation
+  L138: # Display message after animation completes
+  L151: read -p "  Minutes      :    " expiry_minutes
+  L155: if ! [[ $expiry_minutes =~ ^[0-9]+$ ]]; then
+  L156: echo -e "${ERROR} Input must be a number."
+  L159: duration=0
+  L168: exp=$(date -d "$duration days" +"%Y-%m-%d")
+  L169: tgl=$(date -d "$duration days" +"%d")
+  L170: bln=$(date -d "$duration days" +"%b")
+  L171: thn=$(date -d "$duration days" +"%Y")
+  L188: $nama
+  L253: Active For  : $expiry_minutes Minutes
+  L279: echo sed -i '/\bTrial-VL\b/,/^},{/d' /etc/xray/config.json | at now + $expiry_minutes minutes &> /dev/null
+  L315: Active For  : $expiry_minutes Minutes
+  L350: echo -e "${yellow} Expiry     : $expiry_minutes Minutes ${Xark} "
+=== C:\Users\wambu\Desktop\vip\Bot\bot\bot\bot-trial-vme ===
+  L46: ipsaya=$(wget -qO- ipinfo.io/ip)
+  L86: nama="ZA STORE"
+  L95: echo -e "\033[95;1m     $nama       \033[0m"
+  L103: echo -e "${ungu}  Thank You For Using ${Xark}"
+  L105: echo -e "${ungu}           $nama ${Xark}"
+  L107: systemctl restart xray > /dev/null 2>&1
+  L108: service cron restart > /dev/null 2>&1
+  L136: # Display success message after animation completes
+  L149: read -p "  Minutes      :    " expiry_minutes
+  L154: if ! [[ $expiry_minutes =~ ^[0-9]+$ ]]; then
+  L155: echo -e "${ERROR} Input must be a number."
+  L158: duration=0
+  L164: exp=$(date -d "$duration days" +"%Y-%m-%d")
+  L165: tgl=$(date -d "$duration days" +"%d")
+  L166: bln=$(date -d "$duration days" +"%b")
+  L167: thn=$(date -d "$duration days" +"%Y")
+  L232: $nama
+  L300: Active For   : $expiry_minutes Minutes
+  L301: Created On    : $today_str
+  L302: Expires On  : $expdate
+  L326: echo sed -i "/^### $user $exp/,/^},{/d" /etc/xray/config.json | at now + $expiry_minutes minutes &> /dev/null
+  L358: Active For   : $expiry_minutes Minutes
+  L359: Created On    : $today_str
+  L360: Expires On  : $expdate
+  L403: echo -e "${yellow} Expiry in     : $expiry_minutes Minutes ${Xark} "
+=== C:\Users\wambu\Desktop\vip\Bot\bot\bot\bot-unlock ===
+  L10: nama="ZA STORE"
+  L28: echo -e "${ungu}           $nama      ${Xark} "
+  L35: echo -e "${ungu}  Thank You For Using ${Xark}"
+  L37: echo -e "${ungu}          $nama ${Xark}"
+  L66: # Running loading animation
+  L68: # Display message after animation completes
+  L80: echo "   USERNAME       EXP DATE         STATUS"
+  L83: while read expired
+  L85: AKUN="$(echo $expired | cut -d: -f1)"
+  L86: ID="$(echo $expired | grep -v nobody | cut -d: -f3)"
+  L88: status="$(passwd -S $AKUN | awk '{print $2}' )"
+  L90: if [[ "$status" = "L" ]]; then
+  L109: # process changing the password
+  L119: echo -e "${Cyan} Status    : Unlock ${Xark} "
+=== C:\Users\wambu\Desktop\vip\Bot\bot\bot\bot-unlock-tr ===
+  L29: nama="ZA STORE"
+  L39: <b>⚠ UNLOCK XRAY NOTIFICATION ⚠</b>
+  L43: Status    : UNLOCKED
+  L69: echo -e "${ungu}           $nama      ${Xark} "
+  L76: echo -e "${ungu}  Thank You For Using ${Xark}"
+  L78: echo -e "${ungu}          $nama ${Xark}"
+  L109: # Display success message after animation completes
+  L117: function Daftar_Account() {
+  L141: echo -e "${WhiteBe}  User       Expired  ${Xark}  "
+  L143: Daftar_Account
+  L159: echo -e "${GreenBe} Account Not Locked ${Xark} "
+  L162: echo -e "${yellow} Expired On  : $exp  ${Xark}"
+  L163: echo -e "${yellow} Status      : Account Not Locked ${Xark}"
+  L173: systemctl restart xray > /dev/null 2>&1
+  L180: echo -e "${yellow} Expired On  : $exp  ${Xark}"
+  L181: echo -e "${yellow} Status  : Unlocked  ${Xark}"
+=== C:\Users\wambu\Desktop\vip\Bot\bot\bot\bot-unlock-vl ===
+  L29: nama="ZA STORE"
+  L39: <b>⚠ UNLOCK XRAY NOTIFICATION ⚠</b>
+  L43: Status    : UNLOCKED
+  L69: echo -e "${ungu}           $nama      ${Xark} "
+  L76: echo -e "${ungu}  Thank You For Using ${Xark}"
+  L78: echo -e "${ungu}          $nama ${Xark}"
+  L110: # Display success message after animation completes
+  L118: function Daftar_Account() {
+  L142: echo -e "${WhiteBe}  User       Expired  ${Xark}  "
+  L144: Daftar_Account
+  L160: echo -e "${GreenBe} Account Not Locked ${Xark} "
+  L163: echo -e "${yellow} Expired On  : $exp  ${Xark}"
+  L164: echo -e "${yellow} Status      : Account Not Locked ${Xark}"
+  L174: systemctl restart xray > /dev/null 2>&1
+  L181: echo -e "${yellow} Expired On  : $exp  ${Xark}"
+  L182: echo -e "${yellow} Status  : Unlocked  ${Xark}"
+=== C:\Users\wambu\Desktop\vip\Bot\bot\bot\bot-unlock-vm ===
+  L29: nama="ZA STORE"
+  L39: <b>⚠ UNLOCK XRAY NOTIFICATION ⚠</b>
+  L43: Status    : UNLOCKED
+  L69: echo -e "${ungu}           $nama      ${Xark} "
+  L76: echo -e "${ungu}  Thank You For Using ${Xark}"
+  L78: echo -e "${ungu}          $nama ${Xark}"
+  L110: # Display success message after animation completes
+  L118: function Daftar_Account() {
+  L142: echo -e "${WhiteBe}  User       Expired  ${Xark}  "
+  L144: Daftar_Account
+  L160: echo -e "${GreenBe} Account Not Locked ${Xark} "
+  L163: echo -e "${yellow} Expired On  : $exp  ${Xark}"
+  L164: echo -e "${yellow} Status      : Account Not Locked ${Xark}"
+  L174: systemctl restart xray > /dev/null 2>&1
+  L181: echo -e "${yellow} Expired On  : $exp  ${Xark}"
+  L182: echo -e "${yellow} Status      : Unlocked  ${Xark}"
+=== C:\Users\wambu\Desktop\vip\Bot\bot\bot\bot-user-ssh ===
+  L32: nama="ZA STORE"
+  L40: echo -e "\033[95;1m     $nama       \033[0m"
+  L50: echo -e "${ungu}  Thank You For Using ${Xark}"
+  L52: echo -e "${ungu}          $nama ${Xark}"
+  L73: echo "   USERNAME       EXP DATE         STATUS"
+  L76: while read expired
+  L78: AKUN="$(echo $expired | cut -d: -f1)"
+  L79: ID="$(echo $expired | grep -v nobody | cut -d: -f3)"
+  L81: status="$(passwd -S $AKUN | awk '{print $2}' )"
+  L83: if [[ "$status" = "L" ]]; then
+  L91: echo -e " Enter SSH Account Username"
+  L94: echo -e "User Not Found!!!"
+  L111: PAYLOADHANCED="HEAD / HTTP/1.1[crlf]Host: Masukan_Bug[crlf][crlf]PATCH / HTTP/1.1[crlf]Host: [host][crlf]Upgrade: websocket[crlf][crlf][split]HTTP/ 1[crlf][crlf]"
+  L152: Expires On        : $expdate
+=== C:\Users\wambu\Desktop\vip\Bot\bot\bot\bot-vps-info ===
+  L22: WKT=$(curl -s ipinfo.io/timezone)
+  L26: freq=$(awk -F: ' /cpu MHz/ {freq=$2} END {print freq}' /proc/cpuinfo)
+  L27: cores=$(awk -F: '/model name/ {core++} END {print core}' /proc/cpuinfo)
+  L28: cname=$(awk -F: '/model name/ {name=$2} END {print name}' /proc/cpuinfo)
+  L31: Open_SSH=$(systemctl status ssh | grep active | awk '{print $3}' | sed 's/(//g' | sed 's/)//g')
+  L32: Dropbear=$(systemctl status dropbear | grep active | awk '{print $3}' | sed 's/(//g' | sed 's/)//g')
+  L33: Dropbear_Websocket=$(systemctl status dropbear | grep active | awk '{print $3}' | sed 's/(//g' | sed 's/)//g')
+  L34: SSH_Websocket=$(systemctl status ws | grep active | awk '{print $3}' | sed 's/(//g' | sed 's/)//g')
+  L35: OpenVPN=$(systemctl status openvpn | grep active | awk '{print $3}' | sed 's/(//g' | sed 's/)//g')
+  L36: Nginx_Webserver=$(systemctl status nginx | grep active | awk '{print $3}' | sed 's/(//g' | sed 's/)//g')
+  L37: Haproxy=$(systemctl status haproxy | grep active | awk '{print $3}' | sed 's/(//g' | sed 's/)//g')
+  L38: DNS_Server=$(systemctl status server | grep active | awk '{print $3}' | sed 's/(//g' | sed 's/)//g')
+  L39: DNS_Client=$(systemctl status client | grep active | awk '{print $3}' | sed 's/(//g' | sed 's/)//g')
+  L40: OpenVPN_Websocket=$(systemctl status ws | grep active | awk '{print $3}' | sed 's/(//g' | sed 's/)//g')
+  L41: XRAY_Vmess_TLS=$(systemctl status haproxy | grep active | awk '{print $3}' | sed 's/(//g' | sed 's/)//g')
+  L42: XRAY_Vmess_gRPC=$(systemctl status haproxy | grep active | awk '{print $3}' | sed 's/(//g' | sed 's/)//g')
+  L43: XRAY_Vmess_None_TLS=$(systemctl status haproxy | grep active | awk '{print $3}' | sed 's/(//g' | sed 's/)//g')
+  L44: XRAY_Vless_TLS=$(systemctl status haproxy | grep active | awk '{print $3}' | sed 's/(//g' | sed 's/)//g')
+  L45: XRAY_Vless_gRPC=$(systemctl status haproxy | grep active | awk '{print $3}' | sed 's/(//g' | sed 's/)//g')
+  L46: XRAY_Vless_None_TLS=$(systemctl status haproxy | grep active | awk '{print $3}' | sed 's/(//g' | sed 's/)//g')
+  L47: Trojan_gRPC=$(systemctl status haproxy | grep active | awk '{print $3}' | sed 's/(//g' | sed 's/)//g')
+  L48: Trojan_WS=$(systemctl status haproxy | grep active | awk '{print $3}' | sed 's/(//g' | sed 's/)//g')
+  L49: Shadowsocks_WS=$(systemctl status haproxy | grep active | awk '{print $3}' | sed 's/(//g' | sed 's/)//g')
+  L50: Shadowsocks_gRPC=$(systemctl status haproxy | grep active | awk '{print $3}' | sed 's/(//g' | sed 's/)//g')
+  L51: Iptables=$(systemctl status netfilter-persistent | grep active | awk '{print $3}' | sed 's/(//g' | sed 's/)//g')
+  L52: Squid=$(systemctl status udp-mini-2 | grep Active | awk '{print $3}' | cut -d "(" -f2 | cut -d ")" -f1)
+  L53: BadVPN=$(systemctl status udp-mini-1 | grep Active | awk '{print $3}' | cut -d "(" -f2 | cut -d ")" -f1)
+  L54: RClocal=$(systemctl status rc-local | grep active | awk '{print $3}' | sed 's/(//g' | sed 's/)//g')
+  L55: Autorebot=$(systemctl status rc-local | grep active | awk '{print $3}' | sed 's/(//g' | sed 's/)//g')
+  L58: status_1="🟢 Online"
+  L60: status_1="🔴 Offline"
+  L64: status_2="🟢 Online"
+  L66: status_2="🔴 Offline"
+  L70: status_3="🟢 Online"
+  L72: status_3="🔴 Offline"
+  L76: status_4="🟢 Online"
+  L78: status_4="🔴 Offline"
+
+Exit Code: 0

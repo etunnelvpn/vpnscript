@@ -1,0 +1,870 @@
+﻿Output:
+=== C:\Users\wambu\Desktop\vip\Cdy\menu\menu\delet-cache-file ===
+  L24: echo -e "${ungu}           $nama      ${Xark} "
+  L31: echo -e "${ungu}  Thank You For Using ${Xark}"
+  L33: echo -e "${ungu}          $nama ${Xark}"
+  L62: # Running loading animation
+  L64: # Display message after animation completes
+  L79: rm -rf cek-ssh
+  L80: rm -rf cek-tro
+  L81: rm -rf cek-ssr
+  L82: rm -rf cek-vle
+  L83: rm -rf cek-vme
+  L111: rm -rf ganti-ip-ssh
+  L112: rm -rf ganti-ip-vmess
+  L113: rm -rf ganti-ip-trojan
+  L114: rm -rf ganti-ip-vless
+  L127: rm -rf add-bot-notif
+  L128: rm -rf create-bot-notif
+  L133: rm -rf ceklim
+  L135: rm -rf hapus-bot
+=== C:\Users\wambu\Desktop\vip\Cdy\menu\menu\delexp ===
+  L14: today_date=`date +%d-%m-%Y`
+  L15: echo "Thank you for removing the EXPIRED USERS"
+  L36: month_year=`echo $tglexp |awk -F" " '{print $2,$6}'`
+  L37: echo "echo "Expired- User : $username Expire at : $tgl $month_year"" >> /usr/local/bin/alluser
+  L43: echo "echo "Expired- Username : $username are expired at: $tgl $month_year and removed : $today_date "" >> /usr/local/bin/deleteduser
+  L44: echo "$username expired at $tgl $month_year removed $today_date"
+=== C:\Users\wambu\Desktop\vip\Cdy\menu\menu\del-nob ===
+  L19: noobzvpns --info-all-user
+  L24: read -p "Enter the Username : " user
+  L32: echo -e "User $user Successfully Deleted."
+=== C:\Users\wambu\Desktop\vip\Cdy\menu\menu\del-ssh ===
+  L19: while read expired
+  L21: AKUN="$(echo $expired | cut -d: -f1)"
+  L22: ID="$(echo $expired | grep -v nobody | cut -d: -f3)"
+  L24: status="$(passwd -S $AKUN | awk '{print $2}' )"
+  L26: if [[ "$status" = "L" ]]; then
+  L37: read -p "Enter the Username : " user
+  L48: echo -e "User $user Successfully Deleted."
+  L50: echo -e "Failure: User $user Not Found."
+=== C:\Users\wambu\Desktop\vip\Cdy\menu\menu\del-ssr ===
+  L31: echo "  User       Expired  "
+  L42: systemctl restart xray > /dev/null 2>&1
+  L48: echo " Expired On   : $exp"
+=== C:\Users\wambu\Desktop\vip\Cdy\menu\menu\del-tro ===
+  L29: nama=$(cat /etc/xray/username)
+  L38: echo -e "${ungu}           $nama      ${Xark} "
+  L44: echo -e "\033[2;35m      Thank You For Using \033[0m"
+  L46: echo -e "\033[2;35m           $nama  \033[0m"
+  L48: systemctl restart xray > /dev/null 2>&1
+  L49: service cron restart > /dev/null 2>&1
+  L64: echo -e "${yellow} Nama $user Ini Tidak ada- ${Xark} "
+  L65: echo -e "${yellow} Please Make Sure Username Exists ${Xark}"
+  L76: echo -e "${yellow}  User       Expired   ${Xark}"
+  L98: systemctl restart xray > /dev/null 2>&1
+  L105: echo -e "${yellow} Expired On  : $exp  ${Xark}"
+=== C:\Users\wambu\Desktop\vip\Cdy\menu\menu\del-vle ===
+  L22: nama=$(cat /etc/xray/username)
+  L31: echo -e "${ungu}           $nama      ${Xark} "
+  L38: echo -e "${ungu}  Thank You For Using ${Xark}"
+  L40: echo -e "${ungu}          $nama ${Xark}"
+  L69: # Running loading animation
+  L71: # Display message after animation completes
+  L98: echo "  User       Expired  " | lolcat
+  L120: systemctl restart xray > /dev/null 2>&1
+  L127: echo -e "${yellow} Expired On  : $exp  ${Xark}"
+=== C:\Users\wambu\Desktop\vip\Cdy\menu\menu\del-vme ===
+  L29: nama=$(cat /etc/xray/username)
+  L38: echo -e "${ungu}           $nama      ${Xark} "
+  L45: echo -e "${ungu}  Thank You For Using ${Xark}"
+  L47: echo -e "${ungu}          $nama ${Xark}"
+  L76: # Display success message after animation completes
+  L84: function Daftar_Account() {
+  L109: echo -e "${WhiteBe}  User       Expired  ${Xark}  "
+  L131: systemctl restart xray > /dev/null 2>&1
+  L138: echo -e "${yellow} Expired On  : $exp  ${Xark}"
+=== C:\Users\wambu\Desktop\vip\Cdy\menu\menu\expsc ===
+  L16: # // Gettings Info
+  L44: <b>   ⚠SCRIPT EXPIRED NOTIFICATION⚠</b>
+  L54: Silahkan Perpannjang VPS Anda
+=== C:\Users\wambu\Desktop\vip\Cdy\menu\menu\Factreset ===
+  L15: nama=$(cat /etc/xray/username)
+  L44: # Backup function before Reset
+  L87: Tanggal       : $date
+  L99: <b>   ⚠BACKUP NOTIFICATION⚠</b>
+  L104: <b>Date : $date</b>
+  L108: Please copy the Link and restore on a new VPS
+  L116: # Running loading animation
+  L118: # Display message after animation completes
+  L189: systemctl restart xray
+  L220: echo -e " ${Red}ON YOUR SERVER IS GONE! WILL YOU CONTINUE? $NC"
+  L221: read -p " ENTER CHOICE Y/N :   " arg
+  L231: echo -e "${RED}Action Stopped! $NC"
+  L237: echo -e "${RED}Action Stopped! $NC"
+  L242: echo -e "${RED}Unknown Argument! $NC"
+  L271: echo -e "	\033[0;33mBack to Menu in 3 Seconds\033[0m"
+=== C:\Users\wambu\Desktop\vip\Cdy\menu\menu\fixcert ===
+  L30: function notif_ssl() {
+  L31: green "AddHost Telegram Notification"
+  L39: <code>SSL Install Notification    </code>
+  L41: <code>SSL INSTALL DONE</code>
+  L50: function setup_ssl() {
+  L69: systemctl restart nginx
+  L70: systemctl restart xray
+  L71: systemctl restart haproxy
+  L73: setup_ssl
+  L74: notif_ssl
+=== C:\Users\wambu\Desktop\vip\Cdy\menu\menu\fixhap ===
+  L49: # Running loading animation
+  L51: # Display message after animation completes
+  L85: systemctl restart nginx
+  L86: systemctl restart haproxy
+=== C:\Users\wambu\Desktop\vip\Cdy\menu\menu\ganti-ip-ssh ===
+  L16: nama=$(cat /etc/xray/username)
+  L25: echo -e "${ungu}            $nama      ${Xark} "
+  L32: echo -e "${ungu}  Thank You For Using ${Xark}"
+  L34: echo -e "${ungu}           $nama ${Xark}"
+  L63: # Running loading animation
+  L65: # Display message after animation completes
+  L74: echo "   USERNAME       EXP DATE         STATUS"
+  L77: while read expired
+  L79: AKUN="$(echo $expired | cut -d: -f1)"
+  L80: ID="$(echo $expired | grep -v nobody | cut -d: -f3)"
+  L82: status="$(passwd -S $AKUN | awk '{print $2}' )"
+  L84: if [[ "$status" = "L" ]]; then
+  L100: # Validate if IP limit file exists
+  L118: # Validate if input is empty
+=== C:\Users\wambu\Desktop\vip\Cdy\menu\menu\ganti-ip-trojan ===
+  L14: nama=$(cat /etc/xray/username)
+  L23: echo -e "${ungu}            $nama      ${Xark} "
+  L30: echo -e "${ungu}  Thank You For Using ${Xark}"
+  L32: echo -e "${ungu}           $nama ${Xark}"
+  L61: # Running loading animation
+  L63: # Display message after animation completes
+  L84: # Validate if IP limit file exists
+  L97: # Validate if input is empty
+  L106: echo -e " IP Limit Not Found "
+  L130: echo -e "${Cyan} IP file not found for: $user ${Xark} "
+=== C:\Users\wambu\Desktop\vip\Cdy\menu\menu\ganti-ip-vless ===
+  L12: nama=$(cat /etc/xray/username)
+  L21: echo -e "${ungu}           $nama      ${Xark} "
+  L28: echo -e "${ungu}  Thank You For Using ${Xark}"
+  L30: echo -e "${ungu}          $nama ${Xark}"
+  L59: # Running loading animation
+  L61: # Display message after animation completes
+  L70: function Daftar_User_Vless() {
+  L78: Daftar_User_Vless
+  L85: # Validate if IP limit file exists
+  L97: # Validate if input is empty
+  L101: echo -e "${Red} FAILED !! ${Xark} "
+  L119: echo "IP limit file not found for user $user."
+=== C:\Users\wambu\Desktop\vip\Cdy\menu\menu\ganti-ip-vmess ===
+  L13: nama=$(cat /etc/xray/username)
+  L22: echo -e "${ungu}           $nama      ${Xark} "
+  L29: echo -e "${ungu}  Thank You For Using ${Xark}"
+  L31: echo -e "${ungu}          $nama ${Xark}"
+  L60: # Display success message after animation completes
+  L68: function Daftar_Account_Vmess() {
+  L74: Daftar_Account_Vmess
+  L81: # Validate if IP limit file exists
+  L100: # Validate if input is empty
+  L126: echo " IP Limit File For Name $user "
+  L127: echo " Not Found "
+  L128: echo " Please Configure Immediately "
+=== C:\Users\wambu\Desktop\vip\Cdy\menu\menu\gbuser ===
+  L17: function notif_restore() {
+  L18: green "AddHost Telegram Notification"
+  L26: <b>  ⚠ RESTORE NOTIFICATION⚠</b>
+  L65: echo "Please Enter the Backup Link"
+  L77: cekcek=$(cat /etc/passwd | grep -i $user | wc -l)
+  L78: if [[ ${cekcek} == "0" ]]; then
+  L86: cekcek=$(cat /etc/xray/config.json | grep -i "^### $user" | cut -d " " -f2 | sort | uniq)
+  L87: if [[ -z ${cekcek} ]]; then
+  L105: cekcek=$(cat /etc/xray/config.json | grep -i "^#& $user" | cut -d " " -f2 | sort | uniq)
+  L106: if [[ -z ${cekcek} ]]; then
+  L124: cekcek=$(cat /etc/xray/config.json | grep -i "^#! $user" | cut -d " " -f2 | sort | uniq)
+  L125: if [[ -z ${cekcek} ]]; then
+  L144: notif_restore
+  L152: echo -e "   \e[1;32m      RESTORE PROSES $NC"
+=== C:\Users\wambu\Desktop\vip\Cdy\menu\menu\hapus-bot ===
+  L14: nama=$(cat /etc/xray/username)
+  L23: echo -e "${ungu}           $nama      ${Xark} "
+  L30: echo -e "${ungu}    Thank You For Using ${Xark}"
+  L32: echo -e "${ungu}       $nama ${Xark}"
+  L61: # Running loading animation
+  L63: # Display message after animation completes
+  L101: echo -e "\e[5;32m Restart Bot \e[0m"
+  L103: systemctl restart kyt
+=== C:\Users\wambu\Desktop\vip\Cdy\menu\menu\ipbot ===
+  L48: read -p "Input Expired Days : " exp11
+  L79: <code>Expired On     : $exp2</code>
+  L90: echo -e "  ${YELL}Expired On${NC}    : $exp2"
+=== C:\Users\wambu\Desktop\vip\Cdy\menu\menu\killtrial ===
+  L7: systemctl restart sshd >/dev/null 2>&1
+  L8: systemctl restart ws >/dev/null 2>&1
+  L22: systemctl restart xray
+  L32: systemctl restart xray
+  L42: systemctl restart xray
+  L51: systemctl restart xray
+=== C:\Users\wambu\Desktop\vip\Cdy\menu\menu\limit-on-off ===
+  L27: limitip=$(systemctl status vmip | grep running | awk '{print $3}' | cut -d "(" -f2 | cut -d ")" -f1)
+  L28: limitquota=$(systemctl status limitvmess | grep running | awk '{print $3}' | cut -d "(" -f2 | cut -d ")" -f1)
+  L29: # STATUS SERVICE
+  L31: status_limip="${GREEN}ON$NC${blue} │$NC"
+  L33: status_limip="${RED}OFF${NC} "
+  L36: # Status
+  L38: status_limq="${GREEN}ON$NC${blue} │$NC"
+  L40: status_limq="${RED}OFF${NC} "
+  L44: echo -e "       Status limit ip      : $status_limip"
+  L45: echo -e "       Status limit quota   : $status_limq"
+  L65: echo -e "Limit IP Xray ${GREEN}Diaktifkan${NC}."
+  L79: echo -e "Limit IP Xray ${RED}Dinonaktifkan${NC}."
+  L93: echo -e "Limit IP Xray ${GREEN}Diaktifkan${NC}."
+  L107: echo -e "Limit IP Xray ${RED}Dinonaktifkan${NC}."
+  L112: # Pilihan fungsi
+=== C:\Users\wambu\Desktop\vip\Cdy\menu\menu\limitspeed ===
+  L17: IZIN=$( curl ipinfo.io/ip | grep $MYIP )
+  L27: Info="${Green_font_prefix}[ON]${Font_color_suffix}"
+  L29: cek=$(cat /home/limit)
+  L54: if [[ "$cek" = "start" ]]; then
+  L55: sts="${Info}"
+=== C:\Users\wambu\Desktop\vip\Cdy\menu\menu\limitssh-ip ===
+  L10: <b>⚠ MULTI LOGIN SSH NOTIFICATION⚠</b>
+  L14: <code>User Login         : </code><code>${cekcek}</code>
+  L77: cekcek=$(echo -e "$mulog" | grep -wE $user | wc -l)
+  L79: if [[ $cekcek -gt $iplimit ]]; then
+  L82: systemctl restart ws
+  L83: # Jadwalkan untuk membuka kembali akun setelah 15 menit
+=== C:\Users\wambu\Desktop\vip\Cdy\menu\menu\lock ===
+  L13: nama=$(cat /etc/xray/username)
+  L31: echo -e "${ungu}           $nama      ${Xark} "
+  L38: echo -e "${ungu}  Thank You For Using ${Xark}"
+  L40: echo -e "${ungu}          $nama ${Xark}"
+  L69: # Running loading animation
+  L71: # Display message after animation completes
+  L82: echo "   USERNAME       EXP DATE         STATUS"
+  L85: while read expired
+  L87: AKUN="$(echo $expired | cut -d: -f1)"
+  L88: ID="$(echo $expired | grep -v nobody | cut -d: -f3)"
+  L90: status="$(passwd -S $AKUN | awk '{print $2}' )"
+  L92: if [[ "$status" = "P" ]]; then
+  L110: # process changing the password
+  L119: echo -e "${yellow} Status    : LOCKED!! ${Xark} "
+=== C:\Users\wambu\Desktop\vip\Cdy\menu\menu\lock-tr ===
+  L29: nama=$(cat /etc/xray/username)
+  L39: <b>⚠ LOCK XRAY NOTIFICATION ⚠</b>
+  L43: Status    : LOCKED
+  L48: function cek_lock() {
+  L49: cekcek=$(cat /etc/xray/.lock.db)
+  L50: if [[ $cekcek == "" ]]; then
+  L60: cek_lock
+  L68: echo -e "${ungu}           $nama      ${Xark} "
+  L75: echo -e "${ungu}  Thank You For Using ${Xark}"
+  L77: echo -e "${ungu}          $nama ${Xark}"
+  L106: # Display success message after animation completes
+  L114: function Daftar_Account() {
+  L138: echo -e "${WhiteBe}  User       Expired  ${Xark}  "
+  L155: echo -e "${GreenBe} Account Not Found! ${Xark} "
+  L158: echo -e "${yellow} Expired On  : $exp  ${Xark}"
+  L159: echo -e "${yellow} Status      : Account Not Locked ${Xark}"
+  L167: systemctl restart xray > /dev/null 2>&1
+  L174: echo -e "${yellow} Expired On  : $exp  ${Xark}"
+  L175: echo -e "${yellow} Status  : Locked  ${Xark}"
+=== C:\Users\wambu\Desktop\vip\Cdy\menu\menu\lock-vl ===
+  L29: nama=$(cat /etc/xray/username)
+  L39: <b>⚠ LOCK XRAY NOTIFICATION ⚠</b>
+  L43: Status    : LOCKED
+  L49: function cek_lock() {
+  L50: cekcek=$(cat /etc/xray/.lock.db)
+  L51: if [[ $cekcek == "" ]]; then
+  L61: cek_lock
+  L69: echo -e "${ungu}           $nama      ${Xark} "
+  L76: echo -e "${ungu}  Thank You For Using ${Xark}"
+  L78: echo -e "${ungu}          $nama ${Xark}"
+  L107: # Display success message after animation completes
+  L115: function Daftar_Account() {
+  L139: echo -e "${WhiteBe}  User       Expired  ${Xark}  "
+  L156: echo -e "${GreenBe} Account Not Found! ${Xark} "
+  L159: echo -e "${yellow} Expired On  : $exp  ${Xark}"
+  L160: echo -e "${yellow} Status      : Account Not Locked ${Xark}"
+  L168: systemctl restart xray > /dev/null 2>&1
+  L175: echo -e "${yellow} Expired On  : $exp  ${Xark}"
+  L176: echo -e "${yellow} Status  : Locked  ${Xark}"
+=== C:\Users\wambu\Desktop\vip\Cdy\menu\menu\lock-vm ===
+  L29: nama=$(cat /etc/xray/username)
+  L39: <b>⚠ LOCK XRAY NOTIFICATION ⚠</b>
+  L43: Status    : LOCKED
+  L49: function cek_lock() {
+  L50: cekcek=$(cat /etc/xray/.lock.db)
+  L51: if [[ $cekcek == "" ]]; then
+  L61: cek_lock
+  L69: echo -e "${ungu}           $nama      ${Xark} "
+  L76: echo -e "${ungu}  Thank You For Using ${Xark}"
+  L78: echo -e "${ungu}          $nama ${Xark}"
+  L107: # Display success message after animation completes
+  L115: function Daftar_Account() {
+  L139: echo -e "${WhiteBe}  User       Expired  ${Xark}  "
+  L156: echo -e "${GreenBe} Account Not Found! ${Xark} "
+  L159: echo -e "${yellow} Expired On  : $exp  ${Xark}"
+  L160: echo -e "${yellow} Status      : Account Not Locked ${Xark}"
+  L168: systemctl restart xray > /dev/null 2>&1
+  L175: echo -e "${yellow} Expired On  : $exp  ${Xark}"
+  L176: echo -e "${yellow} Status  : Locked  ${Xark}"
+=== C:\Users\wambu\Desktop\vip\Cdy\menu\menu\Lt-on-off ===
+  L49: nama=$(cat /etc/xray/username)
+  L61: echo -e "\033[95;1m           $nama       \033[0m"
+  L68: echo -e "\033[2;35m      Thank You For Using \033[0m"
+  L70: echo -e "\033[2;35m           $nama  \033[0m"
+  L75: # // jalankan perintah :  sleep 3 & loading $!
+  L102: check_cron_status() {
+  L104: echo -e "\033[33m IP Limit Status : ${g}[ON]${NC}"
+  L106: echo -e "\033[33m IP Limit Status : ${RED}[OFF]${NC}"
+  L112: # Get minutes input from user
+  L131: echo -e "${RED}Invalid Input.${NC}"
+  L135: # Build cron task content
+  L138: # Add or update cron task
+  L155: check_cron_status
+  L171: echo -e " Status  : ${RED}NonActive${NC}"
+  L183: check_cron_status
+  L188: echo -e "\033[35m 3.  Check Status Limit\033[0m"
+  L204: check_cron_status
+=== C:\Users\wambu\Desktop\vip\Cdy\menu\menu\mbot ===
+  L22: echo "Go to @BotFather and type /newbot to create a new bot"
+  L38: echo -e "[ ${green}INFO${NC} ] Create password "
+  L46: echo -e "[ ${green}INFO${NC} ] • VPS Data Backup... "
+  L48: echo -e "[ ${green}INFO${NC} ] • Directory Created... "
+  L51: echo -e "[ ${green}INFO${NC} ] • VPS Data Backup Start Now... "
+  L52: echo -e "[ ${green}INFO${NC} ] • Please Wait , Backup In Process Now... "
+  L55: echo -e "[ ${green}INFO${NC} ] • Backup passwd data..."
+  L58: echo -e "[ ${green}INFO${NC} ] • Backup group data..."
+  L61: echo -e "[ ${green}INFO${NC} ] • Backup shadow data..."
+  L64: echo -e "[ ${green}INFO${NC} ] • Backup gshadow data..."
+  L77: echo -e "[ ${green}INFO${NC} ] • Sending Via Bot... "
+  L95: echo -e "[ ${green}INFO${NC} ] • Completed... "
+  L111: echo -e "[ ${green}INFO${NC} ] • Restore Data..."
+  L113: echo -e "[ ${green}INFO${NC} ] • Getting your data..."
+  L115: echo -e "[ ${green}INFO${NC} ] • Starting to restore data..."
+  L119: echo -e "[ ${green}INFO${NC} ] • Please Wait , Restoring In Process Now... "
+  L122: echo -e "[ ${green}INFO${NC} ] • Restoring passwd data..."
+  L125: echo -e "[ ${green}INFO${NC} ] • Restoring group data..."
+  L128: echo -e "[ ${green}INFO${NC} ] • Restoring shadow data..."
+  L131: echo -e "[ ${green}INFO${NC} ] • Restoring gshadow data..."
+  L138: echo -e "[ ${green}INFO${NC} ] • Done Restore... "
+  L148: service cron restart >/dev/null 2>&1
+  L154: service cron restart >/dev/null 2>&1
+  L175: echo -e " ${Blue}│$NC ${green} Status AutoBackup : $sts"
+  L177: echo -e " ${Blue}│$NC [${green}2${NC}] Auto Backup Status \e[0m"
+=== C:\Users\wambu\Desktop\vip\Cdy\menu\menu\m-bot ===
+  L25: # // STATUS SERVICE BOT
+  L26: bot_service=$(systemctl status kyt | grep active | awk '{print $3}' | cut -d "(" -f2 | cut -d ")" -f1)
+  L71: nama=$(cat /etc/xray/username)
+  L80: echo -e "${ungu}           $nama      ${Xark} "
+  L87: echo -e "${ungu}     Thank You For Using ${Xark}"
+  L89: echo -e "${ungu}           $nama ${Xark}"
+  L118: # Running loading animation
+  L120: # Display message after animation completes
+  L128: MYIP=$(wget -qO- ipinfo.io/ip);
+  L135: echo -e " ${KIRI} Status Bot ( ${sts_bot} )"
+  L140: echo -e " 4. Restart Bot"
+  L150: 02 | 2) clear ; hapus-bot ;;
+  L152: 04 | 4) clear ; restart-bot ;;
+=== C:\Users\wambu\Desktop\vip\Cdy\menu\menu\member-ssh ===
+  L18: echo "   USERNAME       EXP DATE         STATUS"
+  L21: while read expired
+  L23: AKUN="$(echo $expired | cut -d: -f1)"
+  L24: ID="$(echo $expired | grep -v nobody | cut -d: -f3)"
+  L26: status="$(passwd -S $AKUN | awk '{print $2}' )"
+  L28: if [[ "$status" = "L" ]]; then
+=== C:\Users\wambu\Desktop\vip\Cdy\menu\menu\member-ssr ===
+  L23: nama=$(cat /etc/xray/username)
+  L32: echo -e "${ungu}         $nama      ${Xark} "
+  L39: echo -e "${ungu}  Thank You For Using ${Xark}"
+  L41: echo -e "${ungu}        $nama ${Xark}"
+  L70: # Running loading animation
+  L72: # Display message after animation completes
+=== C:\Users\wambu\Desktop\vip\Cdy\menu\menu\member-tro ===
+  L14: nama=$(cat /etc/xray/username)
+  L23: echo -e "${ungu}           $nama      ${Xark} "
+  L30: echo -e "${ungu}  Thank You For Using ${Xark}"
+  L32: echo -e "${ungu}          $nama ${Xark}"
+  L61: # Running loading animation
+  L63: # Display message after animation completes
+=== C:\Users\wambu\Desktop\vip\Cdy\menu\menu\member-vme ===
+  L13: nama=$(cat /etc/xray/username)
+  L23: echo -e "${ungu}           $nama      ${Xark} "
+  L30: echo -e "${ungu}  Thank You For Using ${Xark}"
+  L32: echo -e "${ungu}          $nama ${Xark}"
+  L61: # Running loading animation
+  L63: # Display message after animation completes
+  L72: function Daftar_Member_Vmess() {
+  L79: function Daftar_Member_Vless() {
+  L89: Daftar_Member_Vmess
+  L95: Daftar_Member_Vless
+=== C:\Users\wambu\Desktop\vip\Cdy\menu\menu\menu ===
+  L24: # // Gettings Info
+  L34: echo -e "${Green} # $1 successfully installed"
+  L75: echo -e "${RED} Sorry, You Are Not The Owner ${NC}"
+  L124: duration="EXPIRED"
+  L126: duration="${certifacate} Day"
+  L131: ssh_service=$(/etc/init.d/ssh status | grep Active | awk '{print $3}' | cut -d "(" -f2 | cut -d ")" -f1)
+  L133: dropbear_service=$(/etc/init.d/dropbear status | grep Active | awk '{print $3}' | cut -d "(" -f2 | cut -d ")" -f1)
+  L135: haproxy_service=$(systemctl status haproxy | grep Active | awk '{print $3}' | cut -d "(" -f2 | cut -d ")" -f1)
+  L137: xray_service=$(systemctl status xray | grep Active | awk '{print $3}' | cut -d "(" -f2 | cut -d ")" -f1)
+  L139: nginx_service=$(systemctl status nginx | grep Active | awk '{print $3}' | cut -d "(" -f2 | cut -d ")" -f1)
+  L146: status_ssh="\033[92;1mON${NC}"
+  L148: status_ssh="\033[91;1mOFF${NC} "
+  L153: ssh_ws=$( systemctl status ws | grep Active | awk '{print $3}' | sed 's/(//g' | sed 's/)//g' )
+  L155: status_ws_epro="\033[92;1mON${NC}"
+  L157: status_ws_epro="\033[91;1mOFF${NC} "
+  L163: status_haproxy="\033[92;1mON${NC}"
+  L165: status_haproxy="\033[91;1mOFF${NC} "
+  L171: status_xray="\033[92;1mON${NC}"
+  L173: status_xray="\033[91;1mOFF${NC} "
+  L179: status_nginx="\033[92;1mON${NC}"
+  L181: status_nginx="\033[91;1mOFF${NC} "
+  L187: status_dropbear="\033[92;1mGOOD${NC}"
+  L189: status_dropbear="\033[91;1mCRAZY${NC} "
+  L243: function Service_Status() {
+  L245: echo -e "\033[96;1m|\e[0m\e[33m PROXY :\e[0m $status_haproxy  \e[0m|\e[33m NGINX :\e[0m $status_nginx  \e[0m|\e[33m XRAY :\e[0m $status_xray \e[0m| $status_dropbear  \e[96;1m  | \e[0m "
+  L255: echo -e "\033[96;1m   │\e[97m  Expiry      :\033[0m\033[91;1m $duration  \033[0m "
+  L290: echo -e "\e[1;31mSorry, 'Change Theme' menu is not yet available.\e[0m"
+  L300: Service_Status
+=== C:\Users\wambu\Desktop\vip\Cdy\menu\menu\m-ftr ===
+  L32: nama=$(cat /etc/xray/username)
+  L37: echo -e "\033[95;1m     $nama       \033[0m"
+  L61: function  INFORMATION() {
+  L62: echo -e  " ${BG_BLU}              INFORMATION             ${Xark}"
+  L71: function Create_Bot_Notif() {
+  L72: create-bot-notif
+  L76: function Info_Port() {
+  L93: echo -e "  2.) Restart Service    "
+  L120: INFORMATION
+  L122: echo -e " 19.) Info Service Port  "
+  L123: echo -e " 20.) Information System "
+  L155: 19) clear ; Info_Port ;;
+=== C:\Users\wambu\Desktop\vip\Cdy\menu\menu\m-noobz ===
+  L7: # // Export Color & Information
+  L17: # // Export Banner Status Information
+  L19: export INFO="[${YELLOW} INFO ${NC}]"
+  L45: nama=$(cat /etc/xray/username)
+  L68: noobzvpns --add-user $user $pass --expired-user $user $exp
+  L119: echo -e "${GREEN}| \E[44;1;39m          • $nama •            \E[0m|"
+  L142: echo -e "$WH EXPIRED : $expi $NC"
+  L151: <code>EXPIRED  :</code> <code>$expi </code>
+  L158: echo -e "${RED}${NC}          ${WH}       • $nama •                 ${RED} $NC"
+  L171: read -p "expired?: " exp
+  L172: noobzvpns --renew-user $user --expired-user $user $exp
+  L180: echo -e "${RED}${NC}          ${WH}       • $nama •                 ${RED} $NC"
+  L203: echo -e "${RED}${NC}          ${WH}       • $nama •                 ${RED} $NC"
+  L220: noobzvpns --info-all-user | awk '/^\s*\+.*-> active/ {gsub(/(issued\(yyyymmdd\)|hash_key): [0-9a-f]+/, ""); print; getline; print; getline; getline; getline; print; print "═══════════════════"}'
+  L223: echo -e "${RED}${NC}          ${WH}       • $nama •                 ${RED} $NC"
+  L246: echo -e "${RED}${NC}          ${WH}      • $nama •                 ${RED} $NC"
+  L260: read -p "Do you want to delete all users? (Y/N): " choice
+  L263: # Eksekusi perintah di sini
+  L264: echo "DELETING ALL USERS!"
+  L267: echo "Deletion cancelled."
+  L270: echo "Invalid choice."
+  L280: echo -e "${RED}${NC}          ${WH}       • $nama •                 ${RED} $NC"
+  L300: echo -e "${RED}${NC}          ${WH}      • $nama •                 ${RED} $NC"
+=== C:\Users\wambu\Desktop\vip\Cdy\menu\menu\m-rebuild ===
+  L18: echo -e "${ungu}           Select Ubuntu OS      ${Xark} "
+  L39: #UBUNTU OS SELECTION
+  L58: echo -e "${ungu}           Select Debian OS      ${Xark} "
+  L75: #DEBIAN OS SELECTION
+=== C:\Users\wambu\Desktop\vip\Cdy\menu\menu\m-ssh ===
+  L45: # . Hapus akun ssh
+  L101: ceklim
+  L126: echo -e "  7.)  List Expired Accounts"
+  L164: 10) clear ; ganti-ip-ssh ;;
+  L168: 14) clear ; cekudp ;;
+=== C:\Users\wambu\Desktop\vip\Cdy\menu\menu\m-ssr ===
+  L53: cek-ssr
+=== C:\Users\wambu\Desktop\vip\Cdy\menu\menu\m-tro ===
+  L49: ganti-ip-trojan
+  L58: cek-tro
+=== C:\Users\wambu\Desktop\vip\Cdy\menu\menu\mullog ===
+  L9: <b>⚠ MULTI LOGIN NOTIFICATION ⚠</b>
+  L18: mulog=$(cekssh)
+  L24: cekcek=$(echo -e "$mulog" | grep $user | wc -l);
+  L25: if [[ $cekcek -gt $iplimit ]]; then
+=== C:\Users\wambu\Desktop\vip\Cdy\menu\menu\m-xray ===
+  L28: # . 1 Membuat Account Vmess
+  L33: # . 2 Membuat Account Triall Vmess
+  L38: # . 3 Menghapus Account Vmess
+  L43: # . 4 Melihat Daftar Member
+  L53: # . 6 Melihat details Account
+  L55: cek-vme
+  L58: # . 7  Merubah Quota Usee Vmess
+  L62: # . 8 Meeubah Ip Limit User Vmess
+  L64: ganti-ip-vmess
+  L67: # . 9 Merubah Limit Ip Xray
+  L77: # . 11 Membuat Account Vmess
+  L82: # . 12 Membuat Account Triall Vmess
+  L87: # . 13 Menghapus Account Vmess
+  L92: # . 14 Melihat Daftar Member
+  L102: # . 16 Melihat details Account
+  L104: cek-vle
+  L107: # . 17  Merubah Quota Usee Vmess
+  L111: # . 18 Meeubah Ip Limit User Vmess
+  L113: ganti-ip-vless
+  L116: # . 19 Merubah Limit Ip Xray
+  L163: # . Daftar Menu Vmess
+=== C:\Users\wambu\Desktop\vip\Cdy\menu\menu\neo ===
+  L10: echo -e "  \e[92;1m Information System \e[0m"
+=== C:\Users\wambu\Desktop\vip\Cdy\menu\menu\recover ===
+  L50: nama=$(cat /etc/xray/username)
+  L60: echo -e "${ungu}         $nama      ${Xark} "
+  L67: echo -e "${ungu}  Thank You For Using ${Xark}"
+  L69: echo -e "${ungu}        $nama ${Xark}"
+  L99: # Display success message after animation completes
+  L107: function Daftar_Account() {
+  L117: Daftar_Account
+  L119: echo -e "           Enter the Username              "
+  L127: read -p " Expired (day)    : " duration
+  L150: echo -e "   Username Not Found      "
+  L157: tgl=$(date -d "$duration days" +"%d")
+  L158: bln=$(date -d "$duration days" +"%b")
+  L159: thn=$(date -d "$duration days" +"%Y")
+  L165: useradd -e `date -d "$duration days" +"%Y-%m-%d"` -s /bin/false -M $user
+  L168: today_date=`date -d "0 days" +"%Y-%m-%d"`
+  L169: expi=`date -d "$duration days" +"%Y-%m-%d"`
+  L231: Active For         : $duration Days
+  L232: Created On          : $today_str
+  L233: Expires On        : $expdate
+  L244: *_PURCHASE SUCCESSFUL_*
+  L249: -» REQ NAME : $user
+  L251: -» PRICE :
+  L252: -» ACTIVE : $duration DAYS
+  L255: $nama </code>"
+  L262: PAYLOADHANCED="HEAD / HTTP/1.1[crlf]Host: Masukan_Bug[crlf][crlf]PATCH / HTTP/1.1[crlf]Host: [host][crlf]Upgrade: websocket[crlf][crlf][split]HTTP/ 1[crlf][crlf]"
+  L310: echo -e "\033[33m Days in    : $duration Day \033[0m"
+=== C:\Users\wambu\Desktop\vip\Cdy\menu\menu\recover-tr ===
+  L50: nama=$(cat /etc/xray/username)
+  L60: echo -e "${ungu}         $nama      ${Xark} "
+  L67: echo -e "${ungu}  Thank You For Using ${Xark}"
+  L69: echo -e "${ungu}        $nama ${Xark}"
+  L99: # Display success message after animation completes
+  L107: function Daftar_Account() {
+  L119: Daftar_Account
+  L121: echo -e "           Enter the Username              "
+  L134: echo -e "\033[91m Name Error: Username already registered, please use another name.${NC}"
+  L140: read -p " Expired (day)    : " duration
+  L154: echo -e "   Username Not Found      "
+  L161: tgl=$(date -d "$duration days" +"%d")
+  L162: bln=$(date -d "$duration days" +"%b")
+  L163: thn=$(date -d "$duration days" +"%Y")
+  L169: exp=`date -d "$duration days" +"%Y-%m-%d"`
+  L176: systemctl restart xray
+  L224: Days in  : $duration Day
+  L225: Expired  : $expdate
+  L282: Active For   : $duration Days
+  L283: Created On    : $today_str
+  L284: Expires On  : $expdate
+  L295: *_PURCHASE SUCCESSFUL_*
+  L300: -» REQ NAME : $user
+  L302: -» PRICE :
+  L303: -» ACTIVE : $duration DAYS
+  L306: $nama </code>"
+  L339: echo -e " \033[33mDays in     : $duration Day \033[0m "
+=== C:\Users\wambu\Desktop\vip\Cdy\menu\menu\recover-vl ===
+  L50: nama=$(cat /etc/xray/username)
+  L60: echo -e "${ungu}         $nama      ${Xark} "
+  L67: echo -e "${ungu}  Thank You For Using ${Xark}"
+  L69: echo -e "${ungu}        $nama ${Xark}"
+  L99: # Display success message after animation completes
+  L107: function Daftar_Account() {
+  L119: Daftar_Account
+  L121: echo -e "           Enter the Username              "
+  L134: echo -e "\033[91m Name Error: Username already registered, please use another name.${NC}"
+  L140: read -p " Expired (day)    : " duration
+  L154: echo -e "   Username Not Found      "
+  L161: tgl=$(date -d "$duration days" +"%d")
+  L162: bln=$(date -d "$duration days" +"%b")
+  L163: thn=$(date -d "$duration days" +"%Y")
+  L169: exp=$(date -d "$duration days" +"%Y-%m-%d")
+  L214: $nama
+  L279: Days in  : $duration Day
+  L280: Expired  : $expdate
+  L307: Active For   : $duration Days
+  L308: Created On    : $today_str
+  L309: Expires On  : $expdate
+  L319: *_PURCHASE SUCCESSFUL_*
+  L324: -» REQ NAME : $user
+  L326: -» PRICE :
+  L327: -» ACTIVE : $duration DAYS
+  L330: $nama </code>"
+  L367: echo -e "\033[33m Days in    : $duration Day \033[0m "
+=== C:\Users\wambu\Desktop\vip\Cdy\menu\menu\recover-vm ===
+  L50: nama=$(cat /etc/xray/username)
+  L60: echo -e "${ungu}         $nama      ${Xark} "
+  L67: echo -e "${ungu}  Thank You For Using ${Xark}"
+  L69: echo -e "${ungu}        $nama ${Xark}"
+  L99: # Display success message after animation completes
+  L107: function Daftar_Account() {
+  L119: Daftar_Account
+  L121: echo -e "           Enter the Username              "
+  L134: echo -e "\033[91m Name Error: Username already registered, please use another name.${NC}"
+  L140: read -p " Expired (day)    : " duration
+  L154: echo -e "   Username Not Found      "
+  L161: tgl=$(date -d "$duration days" +"%d")
+  L162: bln=$(date -d "$duration days" +"%b")
+  L163: thn=$(date -d "$duration days" +"%Y")
+  L169: exp=`date -d "$duration days" +"%Y-%m-%d"`
+  L172: exp=`date -d "$duration days" +"%Y-%m-%d"`
+  L232: $nama
+  L300: Active For   : $duration Days
+  L301: Created On    : $today_str
+  L302: Expires On  : $expdate
+  L372: Active For   : $duration Days
+  L373: Created On    : $today_str
+  L374: Expires On  : $expdate
+  L384: *_PURCHASE SUCCESSFUL_*
+  L389: -» REQ NAME : $user
+  L391: -» PRICE :
+  L392: -» ACTIVE : $duration DAYS
+  L395: $nama </code>"
+  L437: echo -e "\033[33m Days in        : $duration Day \033[0m"
+  L438: echo -e "\033[33m Expired in     : $expdate \033[0m"
+=== C:\Users\wambu\Desktop\vip\Cdy\menu\menu\renew-nob ===
+  L20: echo "USERNAME          EXP DATE          STATUS"
+  L22: noobzvpns --info-all-user
+  L24: echo -e "           Enter the Username              "
+  L27: read -p "Hari : " exp
+  L28: noobzvpns --expired-user $user $exp
+=== C:\Users\wambu\Desktop\vip\Cdy\menu\menu\renew-ssh ===
+  L20: echo "USERNAME          EXP DATE          STATUS"
+  L22: while read expired
+  L24: AKUN="$(echo $expired | cut -d: -f1)"
+  L25: ID="$(echo $expired | grep -v nobody | cut -d: -f3)"
+  L27: status="$(passwd -S $AKUN | awk '{print $2}' )"
+  L29: if [[ "$status" = "L" ]]; then
+  L37: echo -e "           Enter the Username              "
+  L60: echo -e "        Extend SSH Expiry             "
+  L75: echo -e "        Extend SSH Expiry             "
+  L78: echo -e "   Username Not Found      "
+=== C:\Users\wambu\Desktop\vip\Cdy\menu\menu\renew-ssr ===
+  L25: nama=$(cat /etc/xray/username)
+  L34: echo -e "${ungu}         $nama      ${Xark} "
+  L41: echo -e "${ungu}  Thank You For Using ${Xark}"
+  L43: echo -e "${ungu}        $nama ${Xark}"
+  L72: # Running loading animation
+  L74: # Display message after animation completes
+  L110: read -p " Expired (days)     : " duration
+  L121: exp3=$(($exp2 + $duration))
+  L125: systemctl restart xray > /dev/null 2>&1
+=== C:\Users\wambu\Desktop\vip\Cdy\menu\menu\renew-tro ===
+  L17: nama=$(cat /etc/xray/username)
+  L26: echo -e "${ungu}         $nama      ${Xark} "
+  L33: echo -e "${ungu}  Thank You For Using ${Xark}"
+  L35: echo -e "${ungu}        $nama ${Xark}"
+  L64: # Running loading animation
+  L66: # Display message after animation completes
+  L110: read -p "Expired   : " duration
+  L141: exp3=$(($exp2 + $duration))
+  L145: systemctl restart xray > /dev/null 2>&1
+  L153: echo " Expired On  : $exp4"
+=== C:\Users\wambu\Desktop\vip\Cdy\menu\menu\renew-vle ===
+  L18: nama=$(cat /etc/xray/username)
+  L27: echo -e "${ungu}          $nama      ${Xark} "
+  L34: echo -e "${ungu}  Thank You For Using ${Xark}"
+  L36: echo -e "${ungu}         $nama ${Xark}"
+  L65: # Running loading animation
+  L67: # Display message after animation completes
+  L76: function Daftar_User_Vless() {
+  L91: echo -e "${Red} Nama Is Wrong !!! ${Xark} "
+  L117: read -p "Expired (days)   : " duration
+  L149: exp3=$(($exp2 + $duration))
+  L153: systemctl restart xray > /dev/null 2>&1
+  L162: echo " Expired On    : $exp4"
+=== C:\Users\wambu\Desktop\vip\Cdy\menu\menu\renew-vme ===
+  L22: nama=$(cat /etc/xray/username)
+  L31: echo -e "${ungu}         $nama      ${Xark} "
+  L38: echo -e "${ungu}  Thank You For Using ${Xark}"
+  L40: echo -e "${ungu}        $nama ${Xark}"
+  L69: # Display success message after animation completes
+  L77: function Daftar_Account() {
+  L92: echo " Maaf Nama tidak ada "
+  L93: echo " Atau Anda salah Memasuk-"
+  L94: echo " kan Nama "
+  L115: read -p " Expired (day)    : " duration
+  L149: exp3=$(($exp2 + $duration))
+  L153: systemctl restart xray > /dev/null 2>&1
+  L163: echo " Expired On     : $exp4 day"
+=== C:\Users\wambu\Desktop\vip\Cdy\menu\menu\reset ===
+  L33: systemctl restart nginx
+  L36: systemctl restart xray
+  L39: systemctl restart rc-local
+  L42: systemctl restart client
+  L45: systemctl restart server
+  L48: systemctl restart dropbear
+  L51: systemctl restart ws
+  L54: systemctl restart openvpn
+  L57: systemctl restart cron
+  L60: systemctl restart haproxy
+  L63: systemctl restart netfilter-persistent
+  L66: systemctl restart squid
+  L69: systemctl restart badvpn1
+  L70: systemctl restart badvpn2
+  L71: systemctl restart badvpn3
+  L72: systemctl restart udp-custom
+  L75: systemctl restart noobzvpns
+  L79: echo -e "${RED_BG}                     Restart Service Server                    ${NC}"
+  L83: echo -e "  \033[1;91m service restart nginx\033[1;37m"
+  L85: echo -e "  \033[1;91m service restart xray\033[1;37m"
+  L87: echo -e "  \033[1;91m service restart rc-local\033[1;37m"
+  L89: echo -e "  \033[1;91m service restart client dns\033[1;37m"
+  L91: echo -e "  \033[1;91m service restart server dns\033[1;37m"
+  L93: echo -e "  \033[1;91m service restart dropbear\033[1;37m"
+  L95: echo -e "  \033[1;91m service restart websocket\033[1;37m"
+  L97: echo -e "  \033[1;91m service restart openvpn\033[1;37m"
+  L99: echo -e "  \033[1;91m service restart cron\033[1;37m"
+  L101: echo -e "  \033[1;91m service restart haproxy\033[1;37m"
+  L103: echo -e "  \033[1;91m service restart netfilter-persistent\033[1;37m"
+  L105: echo -e "  \033[1;91m service restart squid\033[1;37m"
+  L107: echo -e "  \033[1;91m service restart Udp\033[1;37m"
+  L109: echo -e "  \033[1;91m service restart NoobzVpns\033[1;37m"
+=== C:\Users\wambu\Desktop\vip\Cdy\menu\menu\restart-bot ===
+  L31: systemctl restart kyt
+  L36: echo -e " \e[1;97;101m          RESTART BOT SERVICE          \e[0m"
+  L39: echo -e "  \033[1;91m restart bot service\033[1;37m"
+=== C:\Users\wambu\Desktop\vip\Cdy\menu\menu\restore ===
+  L17: function notif_restore() {
+  L25: <b>  ⚠ RESTORE NOTIFICATION⚠</b>
+  L37: echo "Please Enter the Backup Link"
+  L63: notif_restore
+=== C:\Users\wambu\Desktop\vip\Cdy\menu\menu\restore1 ===
+  L25: # Bot info
+  L31: # Check permission
+  L51: echo -e "  ⚠  Active Period Has Expired ⚠"
+  L64: # Restore Notification
+  L65: function notif_restore() {
+  L70: <b>  ⚠ RESTORE NOTIFICATION⚠</b>
+  L96: echo "Please Enter the Backup ID"
+  L98: echo "Downloading Backup File..."
+  L105: # Function to request password if extraction fails
+  L109: read -rp "Backup Password (type 'exit' to go back): " -e pw
+  L112: echo "Back to menu..."
+  L118: echo "Restore Started!"
+  L121: echo "Extraction failed! Please enter the correct password."
+  L130: echo "Restore Started!"
+  L137: echo "Restore Started!"
+  L138: cd /root/backup || { echo "❌ Failed to cd to /root/backup"; exit 1; }
+  L140: # lanjut proses restore...
+  L142: echo "❌ Wrong password in automatic mode."
+  L147: echo "Restore Started!"
+  L153: # Restore process
+  L184: notif_restore
+  L189: systemctl restart xray &> /dev/null
+=== C:\Users\wambu\Desktop\vip\Cdy\menu\menu\run ===
+  L40: # // System Information
+  L42: WKT=$(curl -s ipinfo.io/timezone)
+  L46: freq=$(awk -F: ' /cpu MHz/ {freq=$2} END {print freq}' /proc/cpuinfo)
+  L47: cores=$(awk -F: '/model name/ {core++} END {print core}' /proc/cpuinfo)
+  L48: cname=$(awk -F: '/model name/ {name=$2} END {print name}' /proc/cpuinfo)
+  L53: export IP=$( curl -s https://ipinfo.io/ip/ )
+  L56: ssh_service=$(/etc/init.d/ssh status | grep Active | awk '{print $3}' | cut -d "(" -f2 | cut -d ")" -f1)
+  L59: dropbear_status=$(/etc/init.d/dropbear status | grep Active | awk '{print $3}' | cut -d "(" -f2 | cut -d ")" -f1)
+  L60: haproxy_service=$(systemctl status haproxy | grep Active | awk '{print $3}' | cut -d "(" -f2 | cut -d ")" -f1)
+  L61: noobz_service=$(systemctl status noobzvpns | grep Active | awk '{print $3}' | cut -d "(" -f2 | cut -d ")" -f1)
+  L62: fail2ban_service=$(/etc/init.d/fail2ban status | grep Active | awk '{print $3}' | cut -d "(" -f2 | cut -d ")" -f1)
+  L63: cron_service=$(systemctl  status cron | grep Active | awk '{print $3}' | cut -d "(" -f2 | cut -d ")" -f1)
+  L64: badvpn1=$(systemctl status udp-mini-1 | grep Active | awk '{print $3}' | cut -d "(" -f2 | cut -d ")" -f1)
+  L65: badvpn2=$(systemctl status udp-mini-2 | grep Active | awk '{print $3}' | cut -d "(" -f2 | cut -d ")" -f1)
+  L66: badvpn3=$(systemctl status udp-mini-3 | grep Active | awk '{print $3}' | cut -d "(" -f2 | cut -d ")" -f1)
+  L67: Iptables=$(systemctl status netfilter-persistent | grep active | awk '{print $3}' | sed 's/(//g' | sed 's/)//g')
+  L68: RClocal=$(systemctl status rc-local | grep active | awk '{print $3}' | sed 's/(//g' | sed 's/)//g')
+  L69: Autorebot=$(systemctl status rc-local | grep active | awk '{print $3}' | sed 's/(//g' | sed 's/)//g')
+  L70: UdpSSH=$(systemctl status udp-custom | grep active | awk '{print $3}' | sed 's/(//g' | sed 's/)//g')
+  L71: openssh=$( systemctl status ssh | grep Active | awk '{print $3}' | sed 's/(//g' | sed 's/)//g' )
+  L75: status_openssh="\033[92;1m[ON]$NC"
+  L77: status_openssh="\033[91;1m[OFF]${NC} "
+  L81: ssh_ws=$( systemctl status ws | grep Active | awk '{print $3}' | sed 's/(//g' | sed 's/)//g' )
+  L83: status_ws_epro="\033[92;1m[ON]$NC"
+  L85: status_ws_epro="\033[91;1m[OFF]${NC} "
+  L89: ss=$( systemctl status xray | grep Active | awk '{print $3}' | sed 's/(//g' | sed 's/)//g' )
+  L91: status_ss="\033[92;1m[ON]$NC"
+  L93: status_ss="\033[91;1m[OFF]${NC} "
+  L97: nginx=$( /etc/init.d/nginx status | grep Active | awk '{print $3}' | sed 's/(//g' | sed 's/)//g' )
+  L99: status_nginx="\033[92;1m[ON]$NC"
+  L101: status_nginx="\033[91;1m[OFF]${NC} "
+  L104: # STATUS SERVICE IPTABLES
+  L106: status_galo="\033[92;1m[ON]$NC"
+  L108: status_galo="\033[91;1m[OFF]${NC}"
+  L111: # STATUS SERVICE  SSH
+  L113: status_ssh="\033[92;1m[ON]$NC"
+  L115: status_ssh="\033[91;1m[OFF]${NC} "
+  L118: # STATUS NOOBZVPNS SSH
+  L120: status_noobz="\033[92;1m[ON]$NC"
+  L122: status_noobz="\033[91;1m[OFF]${NC} "
+  L125: # STATUS OHP SSH
+  L132: # STATUS SERVICE OPENVPN
+  L134: status_openvpn="\033[92;1m[ON]$NC"
+  L136: status_openvpn="\033[91;1m[OFF]${NC} "
+  L139: # STATUS SERVICE DROPBEAR
+  L140: if [[ $dropbear_status == "running" ]]; then
+  L141: status_beruangjatuh="\033[92;1m[ON]$NC"
+  L143: status_beruangjatuh="\033[91;1m[OFF]${NC} ${NC}"
+  L146: # STATUS SERVICE HAPROXY
+  L148: status_haproxy="\033[92;1m[ON]$NC"
+  L150: status_haproxy="\033[91;1m[OFF]${NC} "
+  L153: # STATUS SERVICE  SQUID
+  L155: # status_squid="\033[92;1m[ON]${NC} ( No Etror )"
+  L157: # status_squid="\033[91;1m[OFF]${NC} "
+  L160: # STATUS SERVICE  FAIL2BAN
+  L162: status_fail2ban="\033[92;1m[ON]$NC"
+  L164: status_fail2ban="\033[91;1m[OFF]${NC} "
+  L167: # STATUS SERVICE  CRONS
+  L169: status_cron="\033[92;1m[ON]$NC"
+  L171: status_cron="\033[91;1m[OFF]${NC} "
+  L174: # STATUS SERVICE  BADVPN 1
+  L176: status_udp1="\033[92;1m[ON]$NC"
+  L178: status_udp1="\033[91;1m[OFF]${NC} "
+  L181: # STATUS SERVICE  BADVPN 2
+  L183: status_udp2="\033[92;1m[ON]$NC"
+  L185: status_udp2="\033[91;1m[OFF]${NC} "
+  L188: # STATUS SERVICE  BADVPN 3
+  L190: status_udp3="\033[92;1m[ON]$NC"
+  L192: status_udp3="\033[91;1m[OFF]${NC} "
+  L196: status_galoo="\033[92;1m[ON]$NC"
+  L198: status_galoo="\033[91;1m[OFF]${NC}"
+  L202: status_galooo="\033[92;1m[ON]$NC"
+  L204: status_galooo="\033[91;1m[OFF]${NC}"
+  L207: # STATUS SERVICE  SSH UDP
+  L209: status_udp="\033[92;1m[ON]$NC"
+  L211: status_udp="\033[91;1m[OFF]${NC} "
+  L220: echo -e " \033[97;1m│ \033[97;1mService SSH / TUN                 $blue=$NC $status_ssh"
+  L224: echo -e " \033[97;1m│ \033[97;1mService SSH UDP                   $blue=$NC $status_udp"
+  L228: echo -e " \033[97;1m│ \033[97;1mService SSH NOOBZVPNS             $blue=$NC $status_noobz"
+  L232: echo -e " \033[97;1m│ \033[97;1mService OpenVPN SSL               $blue=$NC $status_openvpn"
+  L236: echo -e " \033[97;1m│ \033[97;1mService OpenVPN WS-SSL            $blue=$NC $status_openvpn"
+  L240: echo -e " \033[97;1m│ \033[97;1mService OpenVPN UDP               $blue=$NC $status_openvpn"
+  L244: echo -e " \033[97;1m│ \033[97;1mService OpenVPN TCP               $blue=$NC $status_openvpn"
+  L248: echo -e " \033[97;1m│ \033[97;1mService OHP SSH                   $blue=$NC $status_openvpn"
+  L252: echo -e " \033[97;1m│ \033[97;1mService OHP Dropbear              $blue=$NC $status_openvpn"
+  L256: echo -e " \033[97;1m│ \033[97;1mService OHP OpenVPN               $blue=$NC $status_openvpn"
+  L260: echo -e " \033[97;1m│ \033[97;1mService WS ePRO                   $blue=$NC $status_ws_epro"
+  L264: echo -e " \033[97;1m│ \033[97;1mService BadVPN 7100               $blue=$NC $status_udp1"
+  L268: echo -e " \033[97;1m│ \033[97;1mService BadVPN 7200               $blue=$NC $status_udp2"
+  L272: echo -e " \033[97;1m│ \033[97;1mService BadVPN 7300               $blue=$NC $status_udp3"
+  L276: echo -e " \033[97;1m│ \033[97;1mService Dropbear                  $blue=$NC $status_beruangjatuh"
+  L280: echo -e " \033[97;1m│ \033[97;1mService Haproxy                   $blue=$NC $status_haproxy"
+  L284: echo -e " \033[97;1m│ \033[97;1mService Crons                     $blue=$NC $status_cron"
+  L288: echo -e " \033[97;1m│ \033[97;1mService Nginx Webserver           $blue=$NC $status_nginx"
+  L292: echo -e " \033[97;1m│ \033[97;1mService Xray Vmess WS TLS         $blue=$NC $status_ss"
+  L297: echo -e " \033[97;1m│ \033[97;1mService Xray Vmess WS Non TLS     $blue=$NC $status_ss"
+  L301: echo -e " \033[97;1m│ \033[97;1mService Xray Vmess gRPC           $blue=$NC $status_ss"
+  L305: echo -e " \033[97;1m│ \033[97;1mService Xray Vless WS TLS         $blue=$NC $status_ss"
+  L309: echo -e " \033[97;1m│ \033[97;1mService Xray Vless WS Non TLS     $blue=$NC $status_ss"
+  L313: echo -e " \033[97;1m│ \033[97;1mService Xray Vless gRPC           $blue=$NC $status_ss"
+  L317: echo -e " \033[97;1m│ \033[97;1mService Xray Trojan WS            $blue=$NC $status_ss"
+  L321: echo -e " \033[97;1m│ \033[97;1mService Xray Trojan Non WS        $blue=$NC $status_ss"
+  L325: echo -e " \033[97;1m│ \033[97;1mService Xray Trojan gRPC          $blue=$NC $status_ss"
+  L329: echo -e " \033[97;1m│ \033[97;1mService Xray Shadowsocks WS       $blue=$NC $status_ss"
+  L333: echo -e " \033[97;1m│ \033[97;1mService Xray Shadowsocks Non WS   $blue=$NC $status_ss"
+  L337: echo -e " \033[97;1m│ \033[97;1mService Xray Shadowsocks gRPC     $blue=$NC $status_ss"
+=== C:\Users\wambu\Desktop\vip\Cdy\menu\menu\sd ===
+  L24: ISP=$(curl -s ipinfo.io/org | cut -d " " -f 2-10 )
+  L25: CITY=$(curl -s ipinfo.io/city )
+  L31: read -p "   Expired (Days): " duration
+  L33: IP=$(wget -qO- ipinfo.io/ip);
+  L47: tgl=$(date -d "$duration days" +"%d")
+  L48: bln=$(date -d "$duration days" +"%b")
+  L49: thn=$(date -d "$duration days" +"%Y")
+  L55: useradd -e `date -d "$duration days" +"%Y-%m-%d"` -s /bin/false -M $Login
+  L58: today_date=`date -d "0 days" +"%Y-%m-%d"`
+  L59: expi=`date -d "$duration days" +"%Y-%m-%d"`
+  L85: Active For   : $duration Days
+  L86: Created On    : $today_str
+
+Exit Code: 0
