@@ -925,7 +925,10 @@ systemctl restart haproxy
 print_success "Enabling Services"
 clear
 }
-function instal(){
+function password_default(){
+clear
+}
+
 clear
 first_setup
 nginx_install
